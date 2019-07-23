@@ -8,15 +8,15 @@ const colors = {
   inactiveField: '#f2f2f2', // 5
   inactiveButton: '#b7dbdd', // 6
   inactiveIcon: '#EBEBEB', // 7
-  primary: '#2aa275', // 8
-  primaryHover: '#2aa275', // 9
-  secondary: '#edcd37', // 10
-  secondaryHover: '#edcd37', // 11
-  yellow: '#fdb32a', // 12
-  yellowHover: '#F29E02', // 13
+  primary: '#336699', // 8
+  primaryHover: '#3870a3', // 9
+  secondary: '#f15a24', // 10
+  secondaryHover: '#d75020', // 11
+  yellow: '#fd792a', // 12
+  yellowHover: '#fd680f', // 13
   borderColor: '#1b1e25', //14
-  primaryBoxShadow: '0px 8px 20px -6px rgba(42, 162, 117, 0.57)',
-  secondaryBoxShadow: '0px 8px 20px -6px rgba(237, 205, 55, 0.5)',
+  primaryBoxShadow: '0px 8px 20px -6px rgba(50, 100, 150, 0.57)',
+  secondaryBoxShadow: '0px 8px 20px -6px rgba(220, 100, 50, 0.5)',
 };
 
 export default colors;

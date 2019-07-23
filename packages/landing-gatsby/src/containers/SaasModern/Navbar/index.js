@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import NavbarWrapper from 'reusecore/src/elements/Navbar';
 import Drawer from 'reusecore/src/elements/Drawer';
@@ -13,6 +13,8 @@ import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
 
 import LogoImage from 'common/src/assets/image/saasModern/logo-white.png';
 import LogoImageAlt from 'common/src/assets/image/saasModern/logo.png';
+
+
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const Data = useStaticQuery(graphql`
@@ -40,29 +42,32 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
     <NavbarWrapper {...navbarStyle} className="saas_navbar">
       <Container>
         <Box {...row}>
+          
           <Logo
-            href="/saasmodren"
+            href="/"
             logoSrc={LogoImage}
-            title="Portfolio"
+            title="ADAWARE,"
             logoStyle={logoStyle}
             className="main-logo"
           />
+          
           <Logo
-            href="/saasmodren"
+            href="/"
             logoSrc={LogoImageAlt}
-            title="Portfolio"
+            title="ADAWARE,"
             logoStyle={logoStyle}
             className="logo-alt"
           />
+          
           <Box {...menuWrapper}>
             <ScrollSpyMenu
               className="main_menu"
               menuItems={Data.saasModernJson.MENU_ITEMS}
               offset={-70}
             />
-            <a href="#1" className="navbar_button">
-              <Button {...button} title="GET STARTED" />
-            </a>
+            <Link to="/nosotros" className="navbar_button">
+              <Button {...button} title="COMIENZA AQUÍ" />
+            </Link>
             <Drawer
               width="420px"
               placement="right"
@@ -76,9 +81,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <a href="#1" className="navbar_drawer_button">
-                <Button {...button} title="GET STARTED" />
-              </a>
+              <Link to="/nosotros" className="navbar_drawer_button">
+                <Button {...button} title="COMIENZA AQUÍ" />
+              </Link>
             </Drawer>
           </Box>
         </Box>
@@ -107,7 +112,7 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    maxWidth: ['120px', '130px'],
+    maxWidth: ['150px', '180px'],
   },
   button: {
     type: 'button',

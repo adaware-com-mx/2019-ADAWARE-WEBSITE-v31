@@ -31,16 +31,16 @@ const TrialSection = ({
           <Box {...textArea}>
             <Heading
               {...title}
-              content="Start your 30 days free trials today!"
+              content="¡Comienza 30 días de prueba gratis hoy!"
             />
             <Text
               {...description}
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
+              content="Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa."
             />
             <Box {...buttonWrapper}>
-              <Button title="JOIN WITH SLACK" {...btnStyle} />
+              <Button title="REGÍSTRATE" {...btnStyle} />
               <Button
-                title="Login with Email"
+                title="Entra con tu Email"
                 variant="textButton"
                 {...outlineBtnStyle}
               />
@@ -118,8 +118,9 @@ TrialSection.defaultProps = {
     minWidth: '156px',
     fontSize: '16px',
     fontWeight: '500',
-    color: '#0f2137',
+    color: '#5c636c',
     colors: 'secondary',
+    ml: '20px',
   },
 };
 

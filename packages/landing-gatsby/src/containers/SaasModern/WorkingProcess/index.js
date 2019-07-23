@@ -37,10 +37,10 @@ const WorkingProcessSection = ({
     <Box {...sectionWrapper} as="section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="WORKING PROCESS" />
+          <Text {...secText} content="3 SITUACIONES HABITUALES" />
           <Heading
             {...secHeading}
-            content="Our Featured Service that We Provide"
+            content="¿Imaginas dominar los procesos operativos de tu negocio?"
           />
         </Box>
 
@@ -96,7 +96,7 @@ WorkingProcessSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#2aa275',
+    color: '#f15a24',
     mb: '5px',
   },
   secHeading: {
@@ -122,7 +122,7 @@ WorkingProcessSection.defaultProps = {
   },
   processImageStyle: {
     mb: '35px',
-    width: ['60px', '60px', '70px', 'auto'],
+    width: ['60px', '60px', '70px', '50%'],
   },
   processTitleStyle: {
     fontSize: ['20px', '18px', '20px', '20px', '20px'],

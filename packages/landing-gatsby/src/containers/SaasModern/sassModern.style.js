@@ -51,13 +51,13 @@ export const GlobalStyle = createGlobalStyle`
               font-size: 18px;
             }
             &:hover {
-              color: #2aa275;
+              color: #336699;
             }
             &:before{
               content: '';
               width: 7px;
               height: 7px;
-              background: #2aa275;
+              background: #336699;
               border-radius: 50%;
               position: absolute;
               top: 50%;
@@ -68,7 +68,7 @@ export const GlobalStyle = createGlobalStyle`
           }
           &.is-current {
             a {
-              color: #2aa275;
+              color: #336699;
               &:before{
                 opacity: 1;
               }
@@ -99,12 +99,27 @@ export const GlobalStyle = createGlobalStyle`
         content: '\f10b';
         font-family: Flaticon;
         font-size: 26px;
-        color: #2aa275;
+        color: #336699;
         transform: rotate(45deg);
         display: block;
       }
     }
   }
+
+  .video-modal{
+    background: transparent !important;
+    border: 0!important;
+    .innerRndComponent{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+  }
+  .reuseModalOverlay,
+  .reuseModalParentWrapper{
+    z-index: 99999!important;
+  }
+
 `;
 
 export const ContentWrapper = styled.div`
@@ -125,12 +140,12 @@ export const ContentWrapper = styled.div`
           a {
             color: #000;
             &:hover {
-              color: #2aa275;
+              color: #336699;
             }
           }
           &.is-current {
             a {
-              color: #2aa275;
+              color: #336699;
             }
           }
         }
@@ -138,7 +153,7 @@ export const ContentWrapper = styled.div`
     }
     .hamburgMenu__bar {
       > span {
-        background: #2aa275;
+        background: #336699;
       }
     }
   }
@@ -167,7 +182,7 @@ export const ContentWrapper = styled.div`
         }
         &.is-current {
           a {
-            color: #edcd37;
+            color: #fd680f;
           }
         }
         a {
@@ -177,7 +192,7 @@ export const ContentWrapper = styled.div`
           color: #fff;
           transition: 0.15s ease-in-out;
           &:hover {
-            color: #edcd37;
+            color: #fd680f;
           }
         }
       }

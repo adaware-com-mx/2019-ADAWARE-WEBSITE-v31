@@ -64,8 +64,8 @@ const TestimonialSection = ({
     <Box {...sectionWrapper} as="section" id="testimonial_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="TESTIMONIAL" />
-          <Heading {...secHeading} content="What our client say about us" />
+          <Text {...secText} content="DE NUESTROS CLIENTES" />
+          <Heading {...secHeading} content="Descubre nuestro lado más personal" />
         </Box>
         <TestimonialSlideWrapper>
           <GlideCarousel
@@ -125,7 +125,7 @@ TestimonialSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#2aa275',
+    color: '#F15A24',
     mb: '5px',
   },
   secHeading: {

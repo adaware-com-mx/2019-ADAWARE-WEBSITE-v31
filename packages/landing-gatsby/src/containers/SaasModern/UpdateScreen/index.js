@@ -21,8 +21,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
       <TiltShape />
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="UPDATE" />
-          <Heading {...secHeading} content="Meet our new updated screen" />
+          <Text {...secText} content="NUESTROS PRODUCTOS" />
+          <Heading {...secHeading} content="Descubre las soluciones y tecnología para tomar control de tu negocio" />
         </Box>
         <Tabs
           renderTabBar={() => <ScrollableInkTabBar />}
@@ -34,7 +34,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
               forceRender={true}
               tab={
                 <>
-                  <Icon icon={item.icon} size={24} />
+                  <Icon icon={item.icon} size={20} />
                   {item.title}
                 </>
               }

@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Logo from 'reusecore/src/elements/UI/Logo';
 import Container from 'common/src/components/UI/Container';
+import SocialProfile from '../SocialProfile';
 import FooterWrapper, { List, ListItem } from './footer.style';
 
 import LogoImage from 'common/src/assets/image/saasModern/logo.png';
@@ -28,24 +29,31 @@ const Footer = ({
             text
             url
           }
+        },
+        SOCIAL_PROFILES {
+          icon
+          url
         }
       }
     }
   `);
+
 
   return (
     <FooterWrapper>
       <Container className="footer_container">
         <Box className="row" {...row}>
           <Box {...colOne}>
+            <Link to="/">
             <Logo
-              href="#"
               logoSrc={LogoImage}
-              title="Hosting"
+              title="ADAWARE"
               logoStyle={logoStyle}
             />
-            <Text content="hello@isomorphic.com" {...textStyle} />
-            <Text content="+97 0267 5923" {...textStyle} />
+            </Link>
+            <Text content="hola@adaware.com.mx" {...textStyle} />
+            <Text content="+52 (55) 3640-5410" {...textStyle} />
+            <SocialProfile items={Data.saasModernJson.SOCIAL_PROFILES} />
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>
@@ -55,9 +63,9 @@ const Footer = ({
                 <List>
                   {widget.menuItems.map((item, index) => (
                     <ListItem key={`footer-list-item-${index}`}>
-                      <a href={item.url} className="ListItem">
+                      <Link to={item.url} className="ListItem">
                         {item.text}
-                      </a>
+                      </Link>
                     </ListItem>
                   ))}
                 </List>

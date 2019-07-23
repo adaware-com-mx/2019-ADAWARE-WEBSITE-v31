@@ -26,8 +26,8 @@ export const TestimonialSlideWrapper = styled.div`
 export const TestimonialItem = styled.div`
   position: relative;
   display: block;
-  background: #fff;
-  border: 1px solid #f2f4f7;
+  background: #f2f4f7;
+  border: 1px solid #eee;
   border-radius: 5px;
   padding: 40px;
 
@@ -54,7 +54,7 @@ export const AuthorImage = styled.div`
   display: block;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0px 6px 30px 0px rgba(39, 79, 117, 0.2);
+  box-shadow: 0px 6px 30px 0px rgba(39, 79, 117, 0.3);
   margin-right: 15px;
   @media (max-width: 575px) {
     width: 40px;

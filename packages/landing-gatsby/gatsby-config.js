@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `A react next landing page`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `ADAWARE, tus deseos son software`,
+    description: `Vamos a recomendarte software administrativo profesional. Deja de perder tiempo y comienza a alcanzar tus objetivos con soluciones contables de confianza.`,
+    author: `@edbarrios`,
   },
   plugins: [
     {

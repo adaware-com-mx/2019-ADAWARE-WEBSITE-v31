@@ -103,8 +103,8 @@ const PricingButtonWrapper = styled.div`
       border-left-color: transparent;
     }
     &.active-item {
-      color: #2aa275;
-      border-color: #2aa275;
+      color: #336699;
+      border-color: #336699;
     }
     @media (max-width: 575px) {
       font-size: 14px;

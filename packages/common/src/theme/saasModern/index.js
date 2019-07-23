@@ -79,11 +79,11 @@ export const saasModernTheme = {
       },
     },
     secondaryWithBg: {
-      color: colors.black,
+      color: colors.white,
       backgroundColor: colors.secondary,
       borderColor: colors.secondary,
       '&:hover': {
-        color: colors.black,
+        color: colors.white,
         backgroundColor: colors.secondaryHover,
         borderColor: colors.secondaryHover,
         boxShadow: colors.secondaryBoxShadow,

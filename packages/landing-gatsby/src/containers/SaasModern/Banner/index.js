@@ -1,17 +1,46 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import Image from 'gatsby-image';
 import PropTypes from 'prop-types';
 import Icon from 'react-icons-kit';
 import Fade from 'react-reveal/Fade';
+import { openModal, closeModal } from '@redq/reuse-modal';
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Button from 'reusecore/src/elements/Button';
+import Image from 'reusecore/src/elements/Image';
 import Container from 'common/src/components/UI/Container';
 import TiltShape from '../TiltShape';
-import { BannerWrapper, DiscountWrapper, DiscountLabel } from './banner.style';
+import {
+  BannerWrapper,
+  DiscountWrapper,
+  DiscountLabel,
+  VideoModal,
+  PlayButton,
+  VideoWrapper,
+} from './banner.style';
+import BannerImage from 'common/src/assets/image/saasModern/banner-image.png';
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
+import { play } from 'react-icons-kit/entypo/play';
+
+// close button for modal
+const CloseModalButton = () => (
+  <Button
+    className="modalCloseBtn"
+    variant="fab"
+    onClick={() => closeModal()}
+    icon={<i className="flaticon-plus-symbol" />}
+  />
+);
+
+const ModalContent = () => (
+  <VideoWrapper>
+    <iframe
+      title="Video"
+      src="https://www.youtube.com/embed/2jRLOQxVl1w"
+      frameBorder="0"
+    />
+  </VideoWrapper>
+);
 
 const BannerSection = ({
   row,
@@ -25,63 +54,63 @@ const BannerSection = ({
   button,
   fillButton,
 }) => {
-  const Data = useStaticQuery(graphql`
-    query {
-      bannerImage: file(
-        relativePath: { eq: "image/saasModern/banner-image.png" }
-      ) {
-        childImageSharp {
-          fluid(maxWidth: 1170, quality: 100) {
-            ...GatsbyImageSharpFluid_noBase64
-          }
-        }
-      }
-    }
-  `);
+  // modal handler
+  const handleVideoModal = () => {
+    openModal({
+      config: {
+        className: 'video-modal',
+        disableDragging: true,
+          width: '100%',
+          height: '100%',
+      },
+      component: ModalContent,
+      componentProps: {},
+      closeComponent: CloseModalButton,
+      closeOnClickOutside: true,
+    });
+  };
 
   return (
     <BannerWrapper id="banner_section">
-      <TiltShape />
+      <TiltShape className="banner-shape" />
       <Container>
         <Box {...row}>
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content="25% Save" />
+                <Text {...discountAmount} content="Con ADAWARE, tus deseos son" />
                 <Text
                   {...discountText}
-                  content="for first month trail version"
+                  content="software"
                 />
               </DiscountLabel>
             </DiscountWrapper>
             <Heading
               {...title}
-              content="Ultimate Platform to monitor your best workflow."
+              content="Deja de perder tiempo y comienza a alcanzar tus objetivos con soluciones contables de confianza"
             />
             <Text
               {...description}
-              content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!"
+              content="PRODUCTIVIDAD · COMERCIAL &middot; SOLUCIONES"
             />
             <Box {...buttonWrapper}>
-              <a href="#1">
-                <Button {...fillButton} title="FREE TRIAL" />
-              </a>
-              <a href="#1">
                 <Button
                   {...button}
-                  title="WATCH VIDEO"
+                  title="VER PRESENTACIÓN EN VIDEO"
                   icon={<Icon icon={ic_play_circle_filled} size={30} />}
                   iconPosition="left"
+                  onClick={handleVideoModal}
                 />
-              </a>
             </Box>
           </Box>
           <Box {...imageWrapper}>
             <Fade bottom>
-              <Image
-                fluid={Data.bannerImage.childImageSharp.fluid}
-                alt="banner image"
-              />
+              <VideoModal> 
+                <Image src={BannerImage} alt="ADAWARE, Asesores" />
+                <PlayButton tabIndex="0" onClick={handleVideoModal}>
+                  <Icon icon={play} size={40} />
+                </PlayButton>
+              </VideoModal>
             </Fade>
           </Box>
         </Box>
@@ -111,11 +140,8 @@ BannerSection.defaultProps = {
     justifyContent: 'center',
   },
   contentWrapper: {
-    width: ['100%', '100%', '80%', '55%', '50%'],
+    width: ['100%', '100%', '90%', '90%', '80%'],
     mb: '40px',
-  },
-  imageWrapper: {
-    width: '100%',
   },
   title: {
     fontSize: ['24px', '32px', '40px', '42px', '46px'],
@@ -127,7 +153,8 @@ BannerSection.defaultProps = {
     textAlign: 'center',
   },
   description: {
-    fontSize: ['15px', '16px', '16px', '16px', '16px'],
+    fontSize: ['18px', '24px', '24px', '26px', '26px'],
+    fontWeight: '700',
     color: '#fff',
     lineHeight: '1.75',
     mb: '0',
@@ -136,7 +163,7 @@ BannerSection.defaultProps = {
   discountAmount: {
     fontSize: ['13px', '14px', '14px', '14px', '14px'],
     fontWeight: '700',
-    color: '#00865b',
+    color: '#9fc3ed',
     mb: 0,
     as: 'span',
     mr: '0.4em',
