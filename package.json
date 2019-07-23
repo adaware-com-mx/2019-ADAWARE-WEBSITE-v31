@@ -22,7 +22,6 @@
   },
   "workspaces": [
     "packages/common",
-    "packages/landing",
     "packages/landing-gatsby",
     "packages/reusecore"
   ],
