@@ -800,10 +800,6 @@ export const SOCIAL_PROFILES = [
     url: 'https://www.facebook.com/Adawaremaster/',
   },
   {
-    icon: socialLinkedin,
-    url: 'https://www.linkedin.com/in/ada-ware-master-9a519252/',
-  },
-  {
     icon: socialInstagram,
     url: 'https://www.instagram.com/adaware/',
   },
