@@ -23,7 +23,6 @@ import PartnerSection from '../containers/SaasModern/Partner';
 import FaqSection from '../containers/SaasModern/Faq';
 import TrialSection from '../containers/SaasModern/Trial';
 
-import FeatureSection from '../containers/SaasModern/Feature';
 import UpdateScreen from '../containers/SaasModern/UpdateScreen';
 import TestimonialSection from '../containers/SaasModern/Testimonial';
 import Footer from '../containers/SaasModern/Footer';

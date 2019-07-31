@@ -46,6 +46,7 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "build2": "gatsby build --prefix-paths",
     "dev": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
