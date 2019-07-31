@@ -4,6 +4,7 @@ module.exports = {
     description: `Vamos a recomendarte software administrativo profesional. Deja de perder tiempo y comienza a alcanzar tus objetivos con soluciones contables de confianza.`,
     author: `@edbarrios`,
   },
+  pathPrefix: `/2019`,
   plugins: [
     {
       resolve: `gatsby-plugin-styled-components`,

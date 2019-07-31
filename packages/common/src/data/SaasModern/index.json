@@ -64,8 +64,8 @@
       "offset": "0"
     },
     {
-      "label": "Servicios",
-      "path": "/servicios",
+      "label": "Soporte",
+      "path": "/soporte",
       "offset": "0"
     }
   ],
@@ -1026,6 +1026,144 @@
       "icon": "../../assets/image/saasModern/icon-6.png",
       "title": "Customer Support",
       "description": "Get your proof tests delivered home collect a sample from the news get design."
+    }
+  ],
+
+  "SOPORTE_REMOTO_TABLE": [
+    {
+      "freePlan": true,
+      "name": "Póliza Remota",
+      "price": "Contrato por horas",
+      "description": "El horario de atención es de lunes a viernes de 8:00 a 18:00 hrs. En horarios especiales, fines de semana o días festivos las horas se contabilizan dobles o triples, respectivamente",
+      "priceLabel": "Características principales de la atención de soporte:",
+      "buttonLabel": "SOLICITO UNA COTIZACIÓN",
+      "url": "/solicitud-informacion",
+      "listItems": [
+        {
+          "content": "Las solicitudes urgentes se atienden dentro del mismo día que se levanta la solicitud"
+        },
+        {
+          "content": "Las solicitudes de corrección se atienden con sesiones programadas dentro de las 24 horas siguientes al reporte del evento"
+        },
+        {
+          "content": "Las sesiones remotas se atienden con la herramienta más usada y segura para soporte que es Team Viewer"
+        },
+        {
+          "content": "El control de los tiempos se realiza por medio de Bitácoras electrónicas elaboradas por nuestros asesores mismas que nuestros clientes califican y validan referente al servicio prestado"
+        },
+        {
+          "content": "Al contratar pólizas de soporte Remoto se garantiza un costo menor por hora"
+        },
+        {
+          "content": "El tiempo de respuesta es más rápido considerando que no se invierte tiempo en desplazamientos"
+        }
+      ]
+    },
+    {
+      "name": "Póliza Remota",
+      "price": "Contrato anual",
+      "description": "El horario de atención es de lunes a viernes de 8:00 a 18:00 hrs. En horarios especiales, fines de semana o días festivos las horas se contabilizan dobles o triples, respectivamente",
+      "priceLabel": "Servicios incluidos para los sistemas CONTPAQI:",
+      "buttonLabel": "SOLICITO UNA COTIZACIÓN",
+      "url": "/solicitud-informacion",
+      "listItems": [
+        {
+          "content": "Instalación de actualizaciones menores/mayores para licenciamiento anual o tradicional"
+        },
+        {
+          "content": "Migración de bases de datos entre servidores o instancias SQL exclusivamente para los sistemas CONTPAQI"
+        },
+        {
+          "content": "Elaboración de respaldos, soporte técnico, consultoría y mejoras de implementación"
+        },
+        {
+          "content": "El control de los tiempos se realiza por medio de Bitácoras electrónicas elaboradas por nuestros asesores mismas que nuestros clientes califican y validan referente al servicio prestado"
+        },
+        {
+          "content": "Al contratar pólizas de soporte Remoto se garantiza un costo menor por hora"
+        },
+        {
+          "content": "El tiempo de respuesta es más rápido considerando que no se invierte tiempo en desplazamientos."
+        }
+      ]
+    }
+  ],
+
+  "SOPORTE_PRESENCIAL_TABLE": [
+    {
+      "freePlan": true,
+      "name": "Póliza Presencial",
+      "price": "Contrato por horas",
+      "description": "El horario de atención es de lunes a viernes de 8:00 a 18:00 hrs. En horarios especiales, fines de semana o días festivos las horas se contabilizan dobles o triples, respectivamente",
+      "priceLabel": "Características principales de la atención de soporte:",
+      "buttonLabel": "SOLICITO UNA COTIZACIÓN",
+      "url": "/solicitud-informacion",
+      "listItems": [
+        {
+          "content": "Las solicitudes urgentes se atienden dentro de las 24 horas siguientes al reporte del evento"
+        },
+        {
+          "content": "Las solicitudes de corrección se atienden con sesiones programadas dentro de las 48 horas siguientes al reporte del evento."
+        },
+        {
+          "content": "Las sesiones presenciales se atienden en los horarios de lunes a viernes de 8:00 a 18:00 hrs."
+        },
+        {
+          "content": "El control de los tiempos se realiza por medio de Bitácoras electrónicas elaboradas por nuestros asesores mismas que nuestros clientes califican y validan referente al servicio prestado"
+        },
+        {
+          "content": "Diseñada para proyectos más complejos en donde asignamos un consultor para tu empresa, el cual te ayudará desde instalar, configurar o implementar tu sistema en tu oficina"
+        }
+      ]
+    },
+    {
+      "name": "Póliza Presencial",
+      "price": "Contrato anual",
+      "description": "El horario de atención es de lunes a viernes de 8:00 a 18:00 hrs. En horarios especiales, fines de semana o días festivos las horas se contabilizan dobles o triples, respectivamente",
+      "priceLabel": "Servicios incluidos para los sistemas CONTPAQI:",
+      "buttonLabel": "SOLICITO UNA COTIZACIÓN",
+      "url": "/solicitud-informacion",
+      "listItems": [
+        {
+          "content": "Instalación de actualizaciones menores/mayores para licenciamiento anual o tradicional"
+        },
+        {
+          "content": "Migración de bases de datos entre servidores o instancias SQL exclusivamente para los sistemas CONTPAQI"
+        },
+        {
+          "content": "Elaboración de respaldos, soporte técnico, consultoría y mejoras de implementación"
+        },
+        {
+          "content": "El control de los tiempos se realiza por medio de Bitácoras electrónicas elaboradas por nuestros asesores mismas que nuestros clientes califican y validan referente al servicio prestado"
+        },
+        {
+          "content": "Diseñada para proyectos más complejos en donde asignamos un consultor para tu empresa, el cual te ayudará desde instalar, configurar o implementar tu sistema en tu oficina"
+        }
+      ]
+    }
+  ],
+
+  "SOPORTE_FAQ_DATA": [
+    {
+      "expend": true,
+      "title": "¿Puedo usar las horas contratadas en mi póliza en otros servicios?",
+      "description":
+        "Estas horas no aplican para capacitación, conversión de base de datos de otras marcas y/o ERP's, elaboración de reportes, desarrollos de software o conectores administrativos o contables."
+    },
+    {
+      "title": "¿Cuales son lo conectores administrativos y contables?",
+        "description": 
+        "Son programas conectores que entre otras cosas pueden cargar documentos de manera masiva a sistemas Contpaqi. Pueden incluso ayudar en otros procesos de los sistemas CONTPAQi una vez terminado el proceso de carga de documentos."
+    },
+    {
+      "title": "¿Necesito comprar pólizas de soporte para los productos CONTPAQi?",
+      "description":
+        "Es la manera más fácil y cómoda de asegurar el funcionamiento óptimo de tu software así como de obtener el respaldo de expertos profesionales, con asesoría y soporte para tu sistema con un amplio horario."
+    },
+    {
+      "title": "¿Cuáles son los beneficios en las pólizas remotas?",
+      "description":
+        "Nuestras pólizas remotas están diseñadas, para trabajar de manera cómoda, segura y efectiva a través de un escritorio remoto, donde un ejecutivo le atenderá y brindará el soporte que requiera en el momento."
     }
   ]
 }

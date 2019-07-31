@@ -168,8 +168,8 @@ export const MENU_ITEMS = [
     offset: '0',
   },
   {
-    label: 'Servicios',
-    path: '/servicios',
+    label: 'Soporte',
+    path: '/soporte',
     offset: '0',
   },
 ];
@@ -1127,5 +1127,110 @@ export const PORTFOLIO_COMERCIAL = [
     ],
   },
 
+];
+
+export const SOPORTE_TABLE = [
+  {
+    freePlan: true,
+    name: 'CONTPAQi Contabilidad',
+    description: 'Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores',
+    price: '$3,890.00*',
+    priceLabel: 'Pesos Mexicanos + IVA',
+    buttonLabel: 'PROBAR 1 MES GRATIS',
+    url: '#',
+    listItems: [
+      {
+        content: 'Analiza situación contable/fiscal',
+      },
+      {
+        content: 'Tablero Fiscal información CFDI',
+      },
+      {
+        content: 'Recibo Electrónico de Pagos REP',
+      },
+      {
+        content: 'Administra Documentos Digitales',
+      },
+      {
+        content: 'Exporta la información a Excel®',
+      },
+    ],
+  },
+  {
+    name: 'CONTPAQi Nóminas',
+    description: 'Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos',
+    price: '$3,290.00*',
+    priceLabel: 'Pesos Mexicanos + IVA',
+    buttonLabel: 'PROBAR 1 MES GRATIS',
+    url: '#',
+    listItems: [
+      {
+        content: 'Cumple obligaciones ISR e IMSS',
+      },
+      {
+        content: 'Contabiliza CFDI sueldos/salarios',
+      },
+      {
+        content: 'Asegura pago correcto de impuesto',
+      },
+      {
+        content: 'Evita errores en tu Cálculo Anual',
+      },
+      {
+        content: 'Analiza cuotas del IMSS a pagar',
+      },
+    ],
+  },
+  {
+    name: 'CONTPAQi Bancos',
+    description: 'Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa',
+    price: '$3,390.00*',
+    priceLabel: 'Pesos Mexicanos + IVA',
+    buttonLabel: 'PROBAR 1 MES GRATIS',
+    url: '#',
+    listItems: [
+      {
+        content: 'Administra el flujo de efectivo',
+      },
+      {
+        content: 'Programa/Identifica pagos',
+      },
+      {
+        content: 'Controla ingresos y gastos',
+      },
+      {
+        content: 'Organiza por proyecto, área u obra',
+      },
+      {
+        content: 'Cobranza y conciliación bancaria',
+      },
+    ],
+  },
+  {
+    freePlan: true,
+    name: 'CONTPAQi XML En Línea +',
+    description: 'Ayuda a tus clientes a cumplir con sus obligaciones fiscales, recuperando todos los XML de las facturas emitidas y recibidas ',
+    price: '$1,490.00*',
+    priceLabel: 'Pesos Mexicanos + IVA',
+    buttonLabel: 'PROBAR 1 MES GRATIS',
+    url: '#',
+    listItems: [
+      {
+        content: 'Recupera XML facturas en el SAT',
+      },
+      {
+        content: 'Descarga hasta 500 XML/búsqueda ',
+      },
+      {
+        content: 'Identifica comprobantes cancelados',
+      },
+      {
+        content: 'Gestiona/procesa XMLs (en ADD)',
+      },
+      {
+        content: 'Valida XML y detecta duplicados',
+      },
+    ],
+  },
 ];
 

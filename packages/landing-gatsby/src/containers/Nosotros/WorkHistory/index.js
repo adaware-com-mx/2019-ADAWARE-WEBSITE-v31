@@ -30,7 +30,8 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                   {...description}
                 />
               }
-              button={<Button title="ESCRÍBENOS" {...btnStyle} />}
+              button={
+              <Link to="contacto"><Button title="ESCRÍBENOS" {...btnStyle} /></Link>}
             />
           </Box>
           <Box className="col" {...col}>
@@ -55,7 +56,7 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
               </Card>
               <Card className="card" {...cardStyle}>
                 <Text content="Y mucho más" />
-                <Link to="/servicios">
+                <Link to="/productos">
                   <a>Soluciones Contables y Administrativas</a>
                 </Link>
               </Card>

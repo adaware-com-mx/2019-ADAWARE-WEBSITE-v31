@@ -16,9 +16,9 @@ const Bubble = keyframes`
 export const BannerWrapper = styled.section`
   padding: 150px 0 0 0;
   background-image: linear-gradient(
-    35deg,
-    rgb(3, 56, 117) 0%, 
-    rgb(15, 100, 135) 100%
+    180deg,
+    rgb(153,51,0) 20%, 
+    rgb(255,160,110) 80%
   );
   background-size: cover;
   background-position: top center;

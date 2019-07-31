@@ -14,7 +14,7 @@ const ShapeWrapper = styled.div`
     display: block;
   }
   & ~ div {
-    z-index: 1;
+    z-index: 1000;
     position: relative;
   }
 `;

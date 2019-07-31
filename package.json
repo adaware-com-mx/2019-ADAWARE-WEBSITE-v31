@@ -22,7 +22,6 @@
   },
   "workspaces": [
     "packages/common",
-    "packages/landing",
     "packages/landing-gatsby",
     "packages/reusecore"
   ],
@@ -30,6 +29,7 @@
     "clean": "lerna clean --yes && rimraf node_modules",
     "gatsby-dev": "yarn workspace gatsby-landing run dev",
     "gatsby-build": "yarn workspace gatsby-landing run build",
+    "gatsby-build2": "yarn workspace gatsby-landing run build2",
     "gatsby-serve": "yarn workspace gatsby-landing run serve",
     "start": "lerna run --parallel dev",
     "preweb": "cpx \"packages/common/src/assets/image/**/*.*\" \"packages/landing/static\" -C",
