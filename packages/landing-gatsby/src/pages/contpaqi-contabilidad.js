@@ -13,7 +13,6 @@ import {
 import Navbar from '../containers/SaasModern/Navbar';
 import BannerSection from '../containers/ContpaqiContabilidad/Banner';
 import UpdateScreen from '../containers/ContpaqiContabilidad/UpdateScreen';
-import PricingSection from '../containers/ContpaqiContabilidad/Pricing';
 import TrialSection from '../containers/ContpaqiContabilidad/Trial';
 
 import Footer from '../containers/SaasModern/Footer';
