@@ -6,7 +6,6 @@ import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Image from 'reusecore/src/elements/Image';
 import Container from 'common/src/components/UI/Container';
-import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
 
 import { SOCIAL_PROFILES } from 'common/src/data/SaasModern/index';
