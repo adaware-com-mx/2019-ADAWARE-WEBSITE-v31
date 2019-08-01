@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from "gatsby"
+import { useStaticQuery, graphql, Link } from 'gatsby';
+import Image from 'gatsby-image';
 import Tabs, { TabPane } from 'rc-tabs';
 import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 import ScrollableTabBar from 'rc-tabs/lib/ScrollableTabBar';
-import Box from 'reusecore/src/elements/Box';
 import Button from 'reusecore/src/elements/Button'
+import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
-import Image from 'reusecore/src/elements/Image';
 import Container from 'common/src/components/UI/Container';
 import GlideCarousel from 'common/src/components/GlideCarousel';
 import GlideSlide from 'common/src/components/GlideCarousel/glideSlide';
@@ -21,7 +21,6 @@ import {
   PortfolioMeta,
   MetaItem,
 } from './portfolioShowcase.style';
-import { PORTFOLIO_SHOWCASE, PORTFOLIO_COMERCIAL } from 'common/src/data/SaasModern/index';
 
 const PortfolioShowcase = ({
   sectionWrapper,
@@ -37,6 +36,53 @@ const PortfolioShowcase = ({
   secTab,
   secComercialWrapper,
 }) => {
+  const Data = useStaticQuery(graphql`
+    query {
+      saasModernJson {
+        PORTFOLIO_SHOWCASE {
+          title
+          portfolioItem {
+            title
+            description
+            link
+            view
+            love
+            feedback
+            featuredIn
+            featuredLink
+            image {
+              childImageSharp {
+                fluid(quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+        PORTFOLIO_COMERCIAL {
+          title
+          portfolioItem {
+            title
+            description
+            link
+            view
+            love
+            feedback
+            featuredIn
+            featuredLink
+            image {
+              childImageSharp {
+                fluid(quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+
   //Carousel Options
   const carouselOptions = {
     type: 'static',
@@ -61,7 +107,7 @@ const PortfolioShowcase = ({
             renderTabBar={() => <ScrollableInkTabBar pageSize={3} speed={5} />}
             renderTabContent={() => <TabContent animated={false} />}
           >
-            {PORTFOLIO_SHOWCASE.map((tabItem, index) => (
+            {Data.saasModernJson.PORTFOLIO_SHOWCASE.map((tabItem, index) => (
               <TabPane
                 tab={
                   <Box>
@@ -89,8 +135,12 @@ const PortfolioShowcase = ({
                       <GlideSlide key={`PortfolioShowcaseItem-${index}`}>
                         <PortfolioShowcaseItem>
                           <Box {...portfolioImage}>
-                            <Image
-                              src={portfolioItem.image}
+                          <Image
+                              fluid={
+                                (portfolioItem.image !== null) | undefined
+                                  ? portfolioItem.image.childImageSharp.fluid
+                                  : {}
+                              }
                               alt={`Solucion-Contpaqi-${index + 1}`}
                             />
                           </Box>
@@ -129,9 +179,7 @@ const PortfolioShowcase = ({
                               {portfolioItem.featuredIn ? (
                                 <MetaItem className="meta_featured">
                                   Actualización:
-                                  <Link
-                                    to={portfolioItem.featuredLink || '#'}
-                                  >
+                                  <Link to={portfolioItem.featuredLink || '#'}>
                                     {portfolioItem.featuredIn}
                                   </Link>
                                 </MetaItem>
@@ -189,7 +237,7 @@ const PortfolioShowcase = ({
             renderTabBar={() => <ScrollableInkTabBar pageSize={3} speed={5} />}
             renderTabContent={() => <TabContent animated={false} />}
           >
-            {PORTFOLIO_COMERCIAL.map((tabItem, index) => (
+            {Data.saasModernJson.PORTFOLIO_COMERCIAL.map((tabItem, index) => (
               <TabPane
                 tab={
                   <Box>
@@ -218,7 +266,11 @@ const PortfolioShowcase = ({
                         <PortfolioShowcaseItem>
                           <Box {...portfolioImage}>
                             <Image
-                              src={portfolioItem.image}
+                              fluid={
+                                (portfolioItem.image !== null) | undefined
+                                  ? portfolioItem.image.childImageSharp.fluid
+                                  : {}
+                              }
                               alt={`Solucion-Contpaqi-${index + 1}`}
                             />
                           </Box>
