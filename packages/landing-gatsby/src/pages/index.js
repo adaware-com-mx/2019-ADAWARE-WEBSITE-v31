@@ -18,12 +18,9 @@ import SolutionSection from '../containers/SaasModern/SolutionSection';
 import ServiceSection from '../containers/SaasModern/Service';
 import InfoSectionContpaq from '../containers/SaasModern/Contpaq1';
 import InfoSectionLeft from '../containers/SaasModern/Info-left';
-import PricingSection from '../containers/SaasModern/Pricing';
-import PartnerSection from '../containers/SaasModern/Partner';
 import FaqSection from '../containers/SaasModern/Faq';
 import TrialSection from '../containers/SaasModern/Trial';
 
-import UpdateScreen from '../containers/SaasModern/UpdateScreen';
 import TestimonialSection from '../containers/SaasModern/Testimonial';
 import Footer from '../containers/SaasModern/Footer';
 import SEO from '../components/seo';
@@ -50,9 +47,6 @@ export default () => {
           <ServiceSection />
           <InfoSectionContpaq />
           <InfoSectionLeft />
-
-          {/* <UpdateScreen />
-          <PricingSection /> */}
 
           <TestimonialSection />
           <FaqSection />

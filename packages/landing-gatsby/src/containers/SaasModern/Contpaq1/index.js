@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
+import { Link } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
@@ -56,10 +56,8 @@ const InfoSectionContpaq = ({
               content="Lleva el control de tu negocio con el sistema que mejor se adapta a tus necesidades: Contabilidad, Facturación, Nóminas, Punto de Venta y Administración."
             />
             <Box>
-              <Link href="/ride">
-                <a>
+              <Link to="/contpaqi">
                   <Button {...button} title="CONOCE PRODUCTOS CONTPAQi ▸" />
-                </a>
               </Link>
             </Box>
           </Box>
