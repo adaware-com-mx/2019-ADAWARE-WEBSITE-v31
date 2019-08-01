@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
 import { Modal } from '@redq/reuse-modal';
+import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { saasModernTheme } from 'common/src/theme/saasModern';
 import { ResetCSS } from 'common/src/assets/css/style';
@@ -10,8 +10,8 @@ import {
   ContentWrapper,
 } from '../containers/SaasModern/sassModern.style';
 
-import Navbar from '../containers/SaasModern/Navbar';
 import BannerSection from '../containers/SaasModern/Banner';
+import Navbar from '../containers/SaasModern/Navbar';
 import WorkingProcessSection from '../containers/SaasModern/WorkingProcess';
 
 import SolutionSection from '../containers/SaasModern/SolutionSection';
@@ -23,6 +23,7 @@ import TrialSection from '../containers/SaasModern/Trial';
 
 import TestimonialSection from '../containers/SaasModern/Testimonial';
 import Footer from '../containers/SaasModern/Footer';
+import '@redq/reuse-modal/es/index.css';
 import SEO from '../components/seo';
 
 export default () => {
@@ -34,6 +35,7 @@ export default () => {
         <ResetCSS />
         <GlobalStyle />
         {/* End of Home head section */}
+        
         {/* Start Home wrapper section */}
         <ContentWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
@@ -47,13 +49,12 @@ export default () => {
           <ServiceSection />
           <InfoSectionContpaq />
           <InfoSectionLeft />
-
           <TestimonialSection />
           <FaqSection />
           <TrialSection />
           <Footer />
         </ContentWrapper>
-        {/* End of agency wrapper section */}
+        {/* End of SaasModern wrapper section */}
       </Fragment>
     </ThemeProvider>
   );

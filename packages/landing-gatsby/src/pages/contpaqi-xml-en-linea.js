@@ -16,6 +16,7 @@ import UpdateScreen from '../containers/ContpaqiXMLenLinea/UpdateScreen';
 import TrialSection from '../containers/ContpaqiXMLenLinea/Trial';
 
 import Footer from '../containers/SaasModern/Footer';
+import '@redq/reuse-modal/es/index.css';
 import SEO from '../components/seo';
 
 export default () => {

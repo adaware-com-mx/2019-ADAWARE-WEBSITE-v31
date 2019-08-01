@@ -117,7 +117,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   .reuseModalOverlay,
   .reuseModalParentWrapper{
-    z-index: 99990!important;
+    z-index: 99999!important;
   }
 
 `;
@@ -215,21 +215,4 @@ export const ContentWrapper = styled.div`
       }
     }
   }
-
-  .trial-section {
-    background: linear-gradient(to bottom, #fafbff 0%, #f7f8fd 100%);
-
-    .button_group {
-      text-align: center;
-    }
-  }
-
-  @media (max-width: 990px) {
-    .glide__slide--active .pricing_table {
-      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
-      border: 0;
-    }
-  }
 `;
-
-export const ButtonGroup = styled.div``;

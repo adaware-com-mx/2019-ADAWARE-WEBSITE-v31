@@ -22,7 +22,7 @@ export const BannerWrapper = styled.section`
       rgb(15, 100, 135) 100%);
   background-size: cover;
   background-position: top center;
-  overflow: visible;
+  overflow: hidden;
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
   }
