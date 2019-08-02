@@ -1,5 +1,7 @@
 # 2019-ADAWARE-WEBSITE-v31
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2dd2f862-7b2c-4c76-9be4-d6a166b054c3/deploy-status)](https://app.netlify.com/sites/adaware/deploys)
+
 After downloading the file from themeforest, You will find SuperProps.zip file.Then unzip the SuperProps.zip and run the following commands ,
 **If you want to run these template on Next Js server , then**
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from "gatsby";
+import { useStaticQuery, graphql } from 'gatsby';
 import Icon from 'react-icons-kit';
 import Fade from 'react-reveal/Fade';
 import { openModal, closeModal } from '@redq/reuse-modal';
@@ -26,37 +26,71 @@ import { play } from 'react-icons-kit/entypo/play';
 import { PORTFOLIO_SHOWCASE }  from 'common/src/data/SaasModern/index';
 const BannerImage = PORTFOLIO_SHOWCASE[0].portfolioItem[0].BannerImage; 
 
-// close button for modal
-const CloseModalButton = () => (
-  <Button
-    className="modalCloseBtn"
-    variant="fab"
-    onClick={() => closeModal()}
-    icon={<i className="flaticon-plus-symbol" />}
-  />
-);
 
-const ModalContent = () => (
-  <VideoWrapper>
-    <iframe
-      title="Video"
-      src={PORTFOLIO_SHOWCASE[0].portfolioItem[0].Youtube}
-      frameBorder="0"
-    />
-  </VideoWrapper>
-);
 
 const BannerSection = ({
   row,
   contentWrapper,
   discountAmount,
   discountText,
-  title,
+  titles,
   description,
   imageWrapper,
   buttonWrapper,
   button,
 }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      saasModernJson {
+        PORTFOLIO_SHOWCASE {
+          portfolioItem {
+            featuredIn
+            view
+            title
+            description2
+            Youtube
+            BannerImage {
+              childImageSharp {
+                fluid(quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  const { 
+    featuredIn,
+    view,
+    title,
+    description2,
+    Youtube } = data.saasModernJson.PORTFOLIO_SHOWCASE[0].portfolioItem[0];
+
+  // close button for modal
+  const CloseModalButton = () => (
+    <Button
+      className="modalCloseBtn"
+      variant="fab"
+      onClick={() => closeModal()}
+      icon={<i className="flaticon-plus-symbol" />}
+    />
+  );
+
+  const ModalContent = () => (
+    <VideoWrapper>
+      <iframe
+        title="Video"
+        src={Youtube}
+        frameBorder="0"
+      />
+    </VideoWrapper>
+  );
+
+  
+
   // modal handler
   const handleVideoModal = () => {
     openModal({
@@ -85,22 +119,20 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content="2019-Julio-03" />
+                <Text {...discountAmount} content={featuredIn} />
                 <Text
                   {...discountText}
-                  content="Versión 11.6.0"
+                  content={view}
                 />
               </DiscountLabel>
             </DiscountWrapper>
             <Heading
-              {...title}
-              content="CONTPAQi® Contabilidad"
+              {...titles}
+              content={title}
             />
             <Text
               {...description}
-              content="Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores.
-
-              "
+              content={description2}
             />
             <Box {...buttonWrapper}>
               <Button 
@@ -133,7 +165,7 @@ BannerSection.propTypes = {
   contentWrapper: PropTypes.object,
   discountAmount: PropTypes.object,
   discountText: PropTypes.object,
-  title: PropTypes.object,
+  titles: PropTypes.object,
   description: PropTypes.object,
   imageWrapper: PropTypes.object,
   buttonWrapper: PropTypes.object,
@@ -152,7 +184,7 @@ BannerSection.defaultProps = {
     width: ['100%', '100%', '90%', '90%', '80%'],
     mb: '40px',
   },
-  title: {
+  titles: {
     fontSize: ['24px', '32px', '40px', '42px', '46px'],
     fontWeight: '700',
     color: '#fff',

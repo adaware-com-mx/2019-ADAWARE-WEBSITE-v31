@@ -33,19 +33,25 @@ const BannerSection = ({
           titulo3
           subtitulo
           descripcion
-        }
-      }
-      portada: file(relativePath: { eq: "image/ContpaqProcesosContables/person.png" }) {
-        childImageSharp {
-          fixed(width: 767) {
-            ...GatsbyImageSharpFixed_tracedSVG
+          portada_pic {
+            childImageSharp {
+              fixed(width: 767) {
+                ...GatsbyImageSharpFixed_tracedSVG
+              }
+            }
           }
         }
       }
     }
   `);
 
-  const { titulo1, titulo2, titulo3, subtitulo, descripcion } = data.saasModernJson.PORTADA_CONTPAQI;
+  const { 
+    titulo1, 
+    titulo2, 
+    titulo3, 
+    subtitulo, 
+    descripcion, 
+    portada_pic } = data.saasModernJson.PORTADA_CONTPAQI;
 
   return (
     <BannerWrapper id="banner_section">
@@ -71,7 +77,7 @@ const BannerSection = ({
           </Box>
           <Box {...imageArea} className="image_area">
             <Img
-              fixed={data.portada.childImageSharp.fixed}
+              fixed={portada_pic.childImageSharp.fixed}
               alt="Distintivo CONTPAQi Distribuidor Asociado Master"
               objectFit="contain"
               objectPosition="50% 50%"

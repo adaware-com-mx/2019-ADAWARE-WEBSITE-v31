@@ -17,6 +17,16 @@ const colors = {
   borderColor: '#1b1e25', //14
   primaryBoxShadow: '0px 8px 20px -6px rgba(50, 100, 150, 0.57)',
   secondaryBoxShadow: '0px 8px 20px -6px rgba(220, 100, 50, 0.5)',
+  contabilidad: '#0CAD9D',
+  bancos: '#81B847',
+  nominas: '#FF722C',
+  xmlenlinea: '#06888E',
+  comercial: '#CC092F',
+  cfdi: '#BC0889',
+  crm: '#C23FC9',
+  facturaelectronica: '#890363',
+  pdv: '#FFCB27',
+  produccion: '#81312F',
 };
 
 export default colors;

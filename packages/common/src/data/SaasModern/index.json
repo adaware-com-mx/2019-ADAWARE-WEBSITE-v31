@@ -482,8 +482,9 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® Contabilidad",
-          "description":
-            "Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores.",
+          "name": "CONTPAQi Contabilidad",
+          "description": "Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores.",
+          "description2": "Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-1.jpg",
           "link": "/contpaqi-contabilidad",
           "featuredIn": "2019-Julio-03",
@@ -505,11 +506,10 @@
               "content": "Financiero"
             }
           ],
-          "name": "CONTPAQi Contabilidad",
-          "description2": "Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores",
           "price": "$3,890.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -527,6 +527,24 @@
             {
               "content": "Exporta la información a Excel®"
             }
+          ],
+          "screenshots": [
+            {
+              "tab": "Tablero Fiscal",
+              "image": "../../assets/image/contpaqiContabilidad/screenshot1.png"
+            },
+            {
+              "tab": "Pólizas",
+              "image": "../../assets/image/contpaqiContabilidad/screenshot2.png"
+            },
+            {
+              "tab": "Nuevo ADD",
+              "image": "../../assets/image/contpaqiContabilidad/screenshot3.png"
+            },
+            {
+              "tab": "REP > Pólizas de pago",
+              "image": "../../assets/image/contpaqiContabilidad/screenshot4.png"
+            }
           ]
         }
       ]
@@ -536,8 +554,9 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® Nómina",
-          "description":
-            "Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos.",
+          "name": "CONTPAQi Nóminas",
+          "description": "Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos.",
+          "description2": "Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-2.jpg",
           "link": "/contpaqi-nominas",
           "featuredIn": "2019-Junio-26",
@@ -545,7 +564,7 @@
           "view": "11.4.1",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiNominas/banner-image",
+          "BannerImage": "../../assets/image/contpaqiNominas/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "subtitulo": "CONTPAQi® Nómina, el sistema para la administración de la nómina.",
           "buildWith": [
@@ -559,11 +578,10 @@
               "content": "Impuestos"
             }
           ],
-          "name": "CONTPAQi Nóminas",
-          "description2": "Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos",
           "price": "$3,290.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -581,6 +599,24 @@
             {
               "content": "Analiza cuotas del IMSS a pagar"
             }
+          ],
+          "screenshots": [
+            {
+              "tab": "Emite CFDI",
+              "image": "../../assets/image/contpaqiNominas/screenshot1.png"
+            },
+            {
+              "tab": "Envía CFDI",
+              "image": "../../assets/image/contpaqiNominas/screenshot2.png"
+            },
+            {
+              "tab": "Conciliación ISR",
+              "image": "../../assets/image/contpaqiNominas/screenshot3.png"
+            },
+            {
+              "tab": "Contabilidad",
+              "image": "../../assets/image/contpaqiNominas/screenshot4.png"
+            }
           ]
         }
       ]
@@ -590,8 +626,9 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® Bancos",
-          "description":
-            "Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa.",
+          "name": "CONTPAQi Bancos",
+          "description": "Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa.",
+          "description2": "Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-3.jpg",
           "link": "/contpaqi-bancos",
           "featuredIn": "2019-Julio-03",
@@ -599,7 +636,7 @@
           "view": "11.6.0",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiBancos/banner-image",
+          "BannerImage": "../../assets/image/contpaqiBancos/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/_RhSx-Lx7Fc",
           "subtitulo": "CONTPAQi® Bancos, el sistema que facilita la administración de tu flujo de efectivo.",
           "buildWith": [
@@ -613,11 +650,10 @@
               "content": "Ingresos / Gastos"
             }
           ],
-          "name": "CONTPAQi Bancos",
-          "description2": "Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa",
           "price": "$3,390.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -634,6 +670,24 @@
             },
             {
               "content": "Cobranza y conciliación bancaria"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
         }
@@ -653,7 +707,7 @@
           "view": "2.0.7",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiXMLenLinea/banner-image",
+          "BannerImage": "../../assets/image/contpaqiXMLenLinea/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
             {
@@ -671,6 +725,7 @@
           "price": "$1,490.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -687,6 +742,24 @@
             },
             {
               "content": "Valida XML y detecta duplicados"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
         }
@@ -711,7 +784,7 @@
           "view": "6.3.0",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiFacturaElectronica/banner-image",
+          "BannerImage": "../../assets/image/contpaqiFacturaElectronica/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
             {
@@ -729,6 +802,7 @@
           "price": "$1,890.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -745,6 +819,24 @@
             },
             {
               "content": "Addendas y complementos fiscales"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
         }
@@ -764,7 +856,7 @@
           "view": "3.4.4",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiCFDIenLinea/banner-image",
+          "BannerImage": "../../assets/image/contpaqiCFDIenLinea/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
             {
@@ -782,6 +874,7 @@
           "price": "$",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -795,6 +888,24 @@
             },
             {
               "content": "ooo"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
         }
@@ -814,7 +925,7 @@
           "view": "4.5.1",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiComercial/banner-image",
+          "BannerImage": "../../assets/image/contpaqiComercial/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
             {
@@ -832,6 +943,7 @@
           "price": "$1,890.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -845,6 +957,24 @@
             },
             {
               "content": "Reportes de inventarios y costos "
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
         }
@@ -864,7 +994,7 @@
           "view": "3.1.0",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiProduccion/banner-image",
+          "BannerImage": "../../assets/image/contpaqiProduccion/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
             {
@@ -882,6 +1012,7 @@
           "price": "$",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -895,6 +1026,24 @@
             },
             {
               "content": "ooo"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
         }
@@ -914,7 +1063,7 @@
           "view": "4.2.0",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiPDV/banner-image",
+          "BannerImage": "../../assets/image/contpaqiPDV/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
             {
@@ -932,6 +1081,7 @@
           "price": "$2,990.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -945,6 +1095,24 @@
             },
             {
               "content": "Inventarios a detalle por productos, unidades de medida, peso, series, lotes, pedimentos, entre otros"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
         }
@@ -964,7 +1132,7 @@
           "view": "2019",
           "love": "",
           "feedback": "",
-          "BannerImage": "../../assets/image/contpaqiCRM/banner-image",
+          "BannerImage": "../../assets/image/contpaqiCRM/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
             {
@@ -982,6 +1150,7 @@
           "price": "$",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
@@ -995,6 +1164,24 @@
             },
             {
               "content": "ooo"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
         }
