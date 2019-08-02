@@ -153,6 +153,15 @@
     }
   ],
 
+  "PORTADA_CONTPAQI": {
+    "portada_pic": "../../assets/image/ContpaqProcesosContables/person.png",
+    "titulo1": "SOMOS",
+    "titulo2": "Distribuidor Master",
+    "titulo3": "CONTPAQi®",
+    "subtitulo": "Software empresarial fácil y completo",
+    "descripcion": "A ocho años de iniciada la transformación en el cumplimiento de las obligaciones fiscales, impulsamos la productividad de las personas y el crecimiento de las empresas con soluciones empresariales para los procesos contables y administrativos."
+  },
+
   "MONTHLY_PRICING_TABLE": [
     {
       "freePlan": true,

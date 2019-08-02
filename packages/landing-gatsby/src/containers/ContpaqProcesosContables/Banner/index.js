@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image/withIEPolyfill';
 import Icon from 'react-icons-kit';
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
-import Image from 'reusecore/src/elements/Image';
 import Container from 'common/src/components/UI/Container';
 import BannerWrapper from './banner.style';
 
 import { SOCIAL_PROFILES } from 'common/src/data/SaasModern/index';
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from 'common/src/assets/image/ContpaqProcesosContables/person.png';
+
 
 const BannerSection = ({
   row,
@@ -23,30 +24,58 @@ const BannerSection = ({
   roleStyle,
   roleWrapper,
 }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      saasModernJson {
+        PORTADA_CONTPAQI {
+          titulo1
+          titulo2
+          titulo3
+          subtitulo
+          descripcion
+        }
+      }
+      portada: file(relativePath: { eq: "image/ContpaqProcesosContables/person.png" }) {
+        childImageSharp {
+          fixed(width: 767) {
+            ...GatsbyImageSharpFixed_tracedSVG
+          }
+        }
+      }
+    }
+  `);
+
+  const { titulo1, titulo2, titulo3, subtitulo, descripcion } = data.saasModernJson.PORTADA_CONTPAQI;
+
   return (
     <BannerWrapper id="banner_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
           <Box {...contentArea}>
-            <Heading content="SOMOS" {...greetingStyle} />
-            <Heading content="Distribuidor Master" {...nameStyle} />
-            <Heading content="CONTPAQi®" {...designationStyle} />
+            <Heading content={titulo1} {...greetingStyle} />
+            <Heading content={titulo2} {...nameStyle} />
+            <Heading content={titulo3} {...designationStyle} />
             <Box {...roleWrapper}>
               <Icon
                 icon={cornerDownRight}
-                style={{ color: '#3444f1' }}
+                style={{ color: '#e6e6e6' }}
                 size={22}
               />
-              <Heading content="Software empresarial fácil y completo" {...roleStyle} />
+              <Heading content={subtitulo} {...roleStyle} />
             </Box>
             <Text
-              content="A ocho años de iniciada la transformación en el cumplimiento de las obligaciones fiscales, impulsamos la productividad de las personas y el crecimiento de las empresas con soluciones empresariales para los procesos contables y administrativos."
+              content={descripcion}
               {...aboutStyle}
             />
             
           </Box>
           <Box {...imageArea} className="image_area">
-            <Image src={PersonImage} alt="Distintivo CONTPAQi Distribuidor Asociado Master" />
+            <Img
+              fixed={data.portada.childImageSharp.fixed}
+              alt="Distintivo CONTPAQi Distribuidor Asociado Master"
+              objectFit="contain"
+              objectPosition="50% 50%"
+            />
           </Box>
         </Box>
       </Container>
