@@ -63,6 +63,7 @@ export const VideoModal = styled.div`
   position: relative;
   border-radius: 10px;
   overflow: hidden;
+  width: 100%;
   &:before {
     content: '';
     position: absolute;

@@ -8,7 +8,7 @@ import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Button from 'reusecore/src/elements/Button';
-import Image from 'reusecore/src/elements/Image';
+import Image from 'gatsby-image';
 import Container from 'common/src/components/UI/Container';
 import TiltShape from '../TiltShape';
 import {
@@ -23,8 +23,6 @@ import {
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
 
-import { PORTFOLIO_SHOWCASE }  from 'common/src/data/SaasModern/index';
-const BannerImage = PORTFOLIO_SHOWCASE[0].portfolioItem[0].BannerImage; 
 
 
 
@@ -41,6 +39,15 @@ const BannerSection = ({
 }) => {
   const data = useStaticQuery(graphql`
     query {
+      bannerImage: file(
+        relativePath: { eq: "image/contpaqiContabilidad/banner-image.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1170, quality: 100) {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
       saasModernJson {
         PORTFOLIO_SHOWCASE {
           portfolioItem {
@@ -49,13 +56,6 @@ const BannerSection = ({
             title
             description2
             Youtube
-            BannerImage {
-              childImageSharp {
-                fluid(quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }
@@ -147,7 +147,7 @@ const BannerSection = ({
           <Box {...imageWrapper}>
             <Fade bottom>
               <VideoModal> 
-                <Image src={BannerImage} alt="ADAWARE, Asesores" />
+                <Image fluid={data.bannerImage.childImageSharp.fluid} alt="ADAWARE, Asesores" />
                 <PlayButton tabIndex="1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton>
@@ -183,6 +183,9 @@ BannerSection.defaultProps = {
   contentWrapper: {
     width: ['100%', '100%', '90%', '90%', '80%'],
     mb: '40px',
+  },
+  imageWrapper: {
+    width: '100%',
   },
   titles: {
     fontSize: ['24px', '32px', '40px', '42px', '46px'],
