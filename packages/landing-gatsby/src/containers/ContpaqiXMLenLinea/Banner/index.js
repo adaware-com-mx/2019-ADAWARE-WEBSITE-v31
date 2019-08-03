@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from "gatsby";
+import { useStaticQuery, graphql } from 'gatsby';
 import Icon from 'react-icons-kit';
 import Fade from 'react-reveal/Fade';
 import { openModal, closeModal } from '@redq/reuse-modal';
@@ -8,7 +8,7 @@ import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Button from 'reusecore/src/elements/Button';
-import Image from 'reusecore/src/elements/Image';
+import Image from 'gatsby-image';
 import Container from 'common/src/components/UI/Container';
 import TiltShape from '../TiltShape';
 import {
@@ -23,8 +23,51 @@ import {
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
 
-import { PORTFOLIO_SHOWCASE }  from 'common/src/data/SaasModern/index';
-const BannerImage = PORTFOLIO_SHOWCASE[3].portfolioItem[0].BannerImage; 
+
+
+
+const BannerSection = ({
+  row,
+  contentWrapper,
+  discountAmount,
+  discountText,
+  titles,
+  description,
+  imageWrapper,
+  buttonWrapper,
+  button,
+}) => {
+  const data = useStaticQuery(graphql`
+    query {
+      bannerImage: file(
+        relativePath: { eq: "image/contpaqiXMLenLinea/banner-image.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1170, quality: 80) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      }
+      saasModernJson {
+        PORTFOLIO_SHOWCASE {
+          portfolioItem {
+            featuredIn
+            view
+            title
+            description2
+            Youtube
+          }
+        }
+      }
+    }
+  `);
+
+  const { 
+    featuredIn,
+    view,
+    title,
+    description2,
+    Youtube } = data.saasModernJson.PORTFOLIO_SHOWCASE[3].portfolioItem[0];
 
 // close button for modal
 const CloseModalButton = () => (
@@ -40,23 +83,14 @@ const ModalContent = () => (
   <VideoWrapper>
     <iframe
       title="Video"
-      src={PORTFOLIO_SHOWCASE[3].portfolioItem[0].Youtube}
+      src={Youtube}
       frameBorder="0"
     />
   </VideoWrapper>
 );
 
-const BannerSection = ({
-  row,
-  contentWrapper,
-  discountAmount,
-  discountText,
-  title,
-  description,
-  imageWrapper,
-  buttonWrapper,
-  button,
-}) => {
+
+
   // modal handler
   const handleVideoModal = () => {
     openModal({
@@ -85,20 +119,20 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content={PORTFOLIO_SHOWCASE[3].portfolioItem[0].featuredIn} />
+              <Text {...discountAmount} content={featuredIn} />
                 <Text
                   {...discountText}
-                  content={PORTFOLIO_SHOWCASE[3].portfolioItem[0].view}
+                  content={view}
                 />
               </DiscountLabel>
             </DiscountWrapper>
             <Heading
-              {...title}
-              content={PORTFOLIO_SHOWCASE[3].portfolioItem[0].title}
+              {...titles}
+              content={title}
             />
             <Text
               {...description}
-              content={PORTFOLIO_SHOWCASE[3].portfolioItem[0].description}
+              content={description2}
             />
             <Box {...buttonWrapper}>
               <Button 
@@ -113,7 +147,7 @@ const BannerSection = ({
           <Box {...imageWrapper}>
             <Fade bottom>
               <VideoModal> 
-                <Image src={BannerImage} alt="ADAWARE, Asesores" />
+                <Image fluid={data.bannerImage.childImageSharp.fluid} alt="ADAWARE, Asesores" />
                 <PlayButton tabIndex="1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton>
@@ -131,7 +165,7 @@ BannerSection.propTypes = {
   contentWrapper: PropTypes.object,
   discountAmount: PropTypes.object,
   discountText: PropTypes.object,
-  title: PropTypes.object,
+  titles: PropTypes.object,
   description: PropTypes.object,
   imageWrapper: PropTypes.object,
   buttonWrapper: PropTypes.object,
@@ -150,7 +184,10 @@ BannerSection.defaultProps = {
     width: ['100%', '100%', '90%', '90%', '80%'],
     mb: '40px',
   },
-  title: {
+  imageWrapper: {
+    width: '100%',
+  },
+  titles: {
     fontSize: ['24px', '32px', '40px', '42px', '46px'],
     fontWeight: '700',
     color: '#fff',

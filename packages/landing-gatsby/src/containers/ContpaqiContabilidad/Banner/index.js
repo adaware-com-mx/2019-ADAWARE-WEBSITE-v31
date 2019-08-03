@@ -43,8 +43,8 @@ const BannerSection = ({
         relativePath: { eq: "image/contpaqiContabilidad/banner-image.png" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1170, quality: 100) {
-            ...GatsbyImageSharpFluid_noBase64
+          fluid(maxWidth: 1170, quality: 80) {
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

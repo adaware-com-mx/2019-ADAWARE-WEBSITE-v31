@@ -47,7 +47,7 @@ const PortfolioShowcase = ({
             link
             view
             love
-            feedback
+            trialdesc
             featuredIn
             featuredLink
             image {
@@ -67,7 +67,7 @@ const PortfolioShowcase = ({
             link
             view
             love
-            feedback
+            trialdesc
             featuredIn
             featuredLink
             image {
@@ -174,7 +174,7 @@ const PortfolioShowcase = ({
                           {portfolioItem.featuredIn ||
                           portfolioItem.view ||
                           portfolioItem.love ||
-                          portfolioItem.feedback ? (
+                          portfolioItem.trialdesc ? (
                             <PortfolioMeta>
                               {portfolioItem.featuredIn ? (
                                 <MetaItem className="meta_featured">
@@ -200,9 +200,9 @@ const PortfolioShowcase = ({
                               ) : (
                                 ''
                               )}
-                              {portfolioItem.feedback ? (
+                              {portfolioItem.trialdesc ? (
                                 <MetaItem>
-                                  <b>{portfolioItem.feedback}</b> 
+                                  <b>{portfolioItem.trialdesc}</b> 
                                 </MetaItem>
                               ) : (
                                 ''
@@ -304,7 +304,7 @@ const PortfolioShowcase = ({
                           {portfolioItem.featuredIn ||
                           portfolioItem.view ||
                           portfolioItem.love ||
-                          portfolioItem.feedback ? (
+                          portfolioItem.trialdesc ? (
                             <PortfolioMeta>
                               {portfolioItem.featuredIn ? (
                                 <MetaItem className="meta_featured">
@@ -332,9 +332,9 @@ const PortfolioShowcase = ({
                               ) : (
                                 ''
                               )}
-                              {portfolioItem.feedback ? (
+                              {portfolioItem.trialdesc ? (
                                 <MetaItem>
-                                  <b>{portfolioItem.feedback}</b> 
+                                  <b>{portfolioItem.trialdesc}</b> 
                                 </MetaItem>
                               ) : (
                                 ''

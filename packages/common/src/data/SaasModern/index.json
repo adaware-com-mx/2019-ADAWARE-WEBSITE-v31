@@ -374,7 +374,7 @@
           "text": "Sobre nosotros"
         },
         {
-          "url": "/avisodeprivacidad.pdf",
+          "url": "#",
           "text": "Aviso de privacidad"
         }
       ]
@@ -413,15 +413,15 @@
       "title": "Soporte",
       "menuItems": [
         {
-          "url": "/servicios",
+          "url": "/soporte",
           "text": "Contrato anual de Soporte"
         },
         {
-          "url": "/servicios",
+          "url": "/soporte",
           "text": "Pólizas Remotas "
         },
         {
-          "url": "/servicios",
+          "url": "/soporte",
           "text": "Pólizas Presenciales"
         }
       ]
@@ -488,10 +488,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-1.jpg",
           "link": "/contpaqi-contabilidad",
           "featuredIn": "2019-Julio-03",
-          "featuredLink": "http://adaware.com.mx/licencias.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "11.6.0",
-          "love": "",
-          "feedback": "",
+          "love": "https://www.adaware.com.mx/descargas/CT_Contabilidad_Bancos1202.pdf",
+          "trialdesc": "Descarga gratuitamente CONTPAQi Contabilidad por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiContabilidad/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/wgBEeE9sKSQ",
           "subtitulo": "CONTPAQi® Contabilidad, el sistema preferido de los contadores.",
@@ -530,18 +530,22 @@
           ],
           "screenshots": [
             {
+              "icon": "ic_monetization_on",
               "tab": "Tablero Fiscal",
               "image": "../../assets/image/contpaqiContabilidad/screenshot1.png"
             },
             {
+              "icon": "ic_monetization_on",
               "tab": "Pólizas",
               "image": "../../assets/image/contpaqiContabilidad/screenshot2.png"
             },
             {
+              "icon": "ic_monetization_on",
               "tab": "Nuevo ADD",
               "image": "../../assets/image/contpaqiContabilidad/screenshot3.png"
             },
             {
+              "icon": "ic_monetization_on",
               "tab": "REP > Pólizas de pago",
               "image": "../../assets/image/contpaqiContabilidad/screenshot4.png"
             }
@@ -560,10 +564,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-2.jpg",
           "link": "/contpaqi-nominas",
           "featuredIn": "2019-Junio-26",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "11.4.1",
-          "love": "",
-          "feedback": "",
+          "love": "https://www.adaware.com.mx/descargas/CT_Nominas1202.pdf",
+          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiNominas/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "subtitulo": "CONTPAQi® Nómina, el sistema para la administración de la nómina.",
@@ -632,10 +636,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-3.jpg",
           "link": "/contpaqi-bancos",
           "featuredIn": "2019-Julio-03",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "11.6.0",
-          "love": "",
-          "feedback": "",
+          "love": "https://www.adaware.com.mx/descargas/CT_Contabilidad_Bancos1202.pdf",
+          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiBancos/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/_RhSx-Lx7Fc",
           "subtitulo": "CONTPAQi® Bancos, el sistema que facilita la administración de tu flujo de efectivo.",
@@ -674,20 +678,20 @@
           ],
           "screenshots": [
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot1.png"
+              "tab": "Catálogos",
+              "image": "../../assets/image/contpaqiBancos/screenshot1.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot2.png"
+              "tab": "Conciliaciones",
+              "image": "../../assets/image/contpaqiBancos/screenshot2.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot3.png"
+              "tab": "Retenciones",
+              "image": "../../assets/image/contpaqiBancos/screenshot3.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot4.png"
+              "tab": "Categorización",
+              "image": "../../assets/image/contpaqiBancos/screenshot4.png"
             }
           ]
         }
@@ -698,17 +702,19 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® XML En Línea+",
-          "description":
-            "Ayuda a tus clientes a cumplir con sus obligaciones fiscales, recuperando XML de las facturas conectándote al SAT.",
+          "name": "CONTPAQi XML En Línea +",
+          "description": "Ayuda a tus clientes a cumplir con sus obligaciones fiscales, recuperando XML de las facturas conectándote al SAT.",
+          "description2": "Ayuda a tus clientes a cumplir con sus obligaciones fiscales, recuperando todos los XML de las facturas emitidas y recibidas ",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-4.jpg",
           "link": "/contpaqi-xml-en-linea",
-          "featuredIn": "2018-Diciembre-07",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
-          "view": "2.0.7",
-          "love": "",
-          "feedback": "",
+          "featuredIn": "2019-Julio-26",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
+          "view": "2.0.9",
+          "love": "https://www.adaware.com.mx/descargas/Carta_Tecnica_XMLenlinea_209.pdf",
+          "trialdesc": "Descarga gratuitamente CONTPAQi® XML En Línea+ por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiXMLenLinea/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
+          "Youtube": "https://www.youtube.com/embed/5cfqocmqGZg",
+          "subtitulo": "CONTPAQi® XML En Línea+, el sistema que te facilita la búsqueda y descarga de tus CFDI",
           "buildWith": [
             {
               "content": "Cumplimiento"
@@ -720,8 +726,6 @@
               "content": "Facturación"
             }
           ],
-          "name": "CONTPAQi XML En Línea +",
-          "description2": "Ayuda a tus clientes a cumplir con sus obligaciones fiscales, recuperando todos los XML de las facturas emitidas y recibidas ",
           "price": "$1,490.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
@@ -746,20 +750,20 @@
           ],
           "screenshots": [
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot1.png"
+              "tab": "Comprobantes ADD",
+              "image": "../../assets/image/contpaqiXMLenLinea/screenshot1.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot2.png"
+              "tab": "Multiempresa",
+              "image": "../../assets/image/contpaqiXMLenLinea/screenshot2.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot3.png"
+              "tab": "Exportar Excel",
+              "image": "../../assets/image/contpaqiXMLenLinea/screenshot3.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot4.png"
+              "tab": "Cargar al ADD",
+              "image": "../../assets/image/contpaqiXMLenLinea/screenshot4.png"
             }
           ]
         }
@@ -780,10 +784,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-5.jpg",
           "link": "/contpaqi-factura-electronica",
           "featuredIn": "2019-Mayo-15",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "6.3.0",
           "love": "",
-          "feedback": "",
+          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiFacturaElectronica/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
@@ -852,10 +856,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-6.jpg",
           "link": "/contpaqi-cfdi-facturacion-en-linea",
           "featuredIn": "",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "3.4.4",
           "love": "",
-          "feedback": "",
+          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiCFDIenLinea/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
@@ -921,10 +925,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-7.jpg",
           "link": "/contpaqi-comercial",
           "featuredIn": "2019-Abril-26",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "4.5.1",
           "love": "",
-          "feedback": "",
+          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiComercial/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
@@ -990,10 +994,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-8.jpg",
           "link": "/contpaqi-produccion",
           "featuredIn": "2019-Mayo-23",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "3.1.0",
           "love": "",
-          "feedback": "",
+          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiProduccion/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
@@ -1059,10 +1063,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-9.jpg",
           "link": "/contpaqi-punto-de-venta",
           "featuredIn": "2018-Febrero-28",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "4.2.0",
           "love": "",
-          "feedback": "",
+          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiPDV/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [
@@ -1128,10 +1132,10 @@
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-10.jpg",
           "link": "/contpaqi-crm",
           "featuredIn": "",
-          "featuredLink": "http://adaware.com.mx/ingresar.php",
+          "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "2019",
           "love": "",
-          "feedback": "",
+          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiCRM/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
           "buildWith": [

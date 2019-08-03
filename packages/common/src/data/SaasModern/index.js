@@ -825,7 +825,7 @@ export const PORTFOLIO_SHOWCASE = [
         featuredLink: 'http://adaware.com.mx/licencias.php',
         view: '11.6.0',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage1,
         Youtube: 'https://www.youtube.com/embed/wgBEeE9sKSQ',
         subtitulo: 'CONTPAQi® Contabilidad, el sistema preferido de los contadores.',
@@ -857,7 +857,7 @@ export const PORTFOLIO_SHOWCASE = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '11.4.1',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage2,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         subtitulo: 'CONTPAQi® Nómina, el sistema para la administración de la nómina.',
@@ -888,7 +888,7 @@ export const PORTFOLIO_SHOWCASE = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '11.6.0',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage3,
         Youtube: 'https://www.youtube.com/embed/_RhSx-Lx7Fc',
         subtitulo: 'CONTPAQi® Bancos, el sistema que facilita la administración de tu flujo de efectivo.',
@@ -919,9 +919,10 @@ export const PORTFOLIO_SHOWCASE = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '2.0.7',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage4,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
+        subtitulo: 'CONTPAQi® XML En Línea+, el sistema que te facilita la búsqueda y descarga de tus CFDI',
         buildWith: [
           {
             content: 'Cumplimiento',
@@ -955,7 +956,7 @@ export const PORTFOLIO_COMERCIAL = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '6.3.0',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage5,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
@@ -985,7 +986,7 @@ export const PORTFOLIO_COMERCIAL = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '3.4.4',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage6,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
@@ -1015,7 +1016,7 @@ export const PORTFOLIO_COMERCIAL = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '4.5.1',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage7,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
@@ -1045,7 +1046,7 @@ export const PORTFOLIO_COMERCIAL = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '3.1.0',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage8,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
@@ -1075,7 +1076,7 @@ export const PORTFOLIO_COMERCIAL = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '4.2.0',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage9,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [
@@ -1105,7 +1106,7 @@ export const PORTFOLIO_COMERCIAL = [
         featuredLink: 'http://adaware.com.mx/ingresar.php',
         view: '2019',
         love: '',
-        feedback: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage10,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
         buildWith: [

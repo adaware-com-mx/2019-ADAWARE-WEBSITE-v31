@@ -12,7 +12,8 @@ import Image from 'reusecore/src/elements/Image';
 import Container from 'common/src/components/UI/Container';
 
 import SectionWrapper from './updateScreen.style';
-import { SCREENSHOTS3, PORTFOLIO_SHOWCASE }  from 'common/src/data/SaasModern/index'; 
+import { SCREENSHOTS4, PORTFOLIO_SHOWCASE }  from 'common/src/data/SaasModern/index'; 
+
 
 const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
   return (
@@ -22,7 +23,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
           <Text {...secText} content="DESCUBRE CÓMO TRABAJA" />
           <Heading
             {...secHeading}
-            content="CONTPAQi® Contabilidad, el sistema favorito de los Contadores."
+            content={PORTFOLIO_SHOWCASE[3].portfolioItem[0].subtitulo}
           />
         </Box>
         <Tabs
@@ -30,7 +31,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
           renderTabContent={() => <TabContent animatedWithMargin />}
           className="update-screen-tab"
         >
-          {SCREENSHOTS3.map((item, index) => (
+          {SCREENSHOTS4.map((item, index) => (
             <TabPane
               tab={
                 <>
