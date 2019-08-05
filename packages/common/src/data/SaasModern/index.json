@@ -779,17 +779,19 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® Factura Electrónica",
-          "description":
-            "Automatiza y haz mas eficiente tu proceso de facturacion en el sistema que mejor se adapta a tu administración comercial.",
+          "name": "CONTPAQi Factura electrónica",
+          "description": "Automatiza y haz mas eficiente tu proceso de facturacion en el sistema que mejor se adapta a tu administración comercial.",
+          "description2": "Agiliza tu proceso de facturación y el control de tus cuentas por cobrar para hacer más productivo tu negocio o empresa",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-5.jpg",
           "link": "/contpaqi-factura-electronica",
-          "featuredIn": "2019-Mayo-15",
+          "featuredIn": "2019-Julio-09",
           "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "6.3.0",
-          "love": "",
+          "love": "https://www.adaware.com.mx/descargas/CT_Factura_electronica_630.pdf",
           "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiFacturaElectronica/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
+          "Youtube": "https://www.youtube.com/embed/8O4AAhBzfkI",
+          "subtitulo": "CONTPAQi® Factura Electrónica sistema que facilita la emisión y recepción de tu CFDI",
           "buildWith": [
             {
               "content": "Folios"
@@ -801,8 +803,6 @@
               "content": "CFDI"
             }
           ],
-          "name": "CONTPAQi Factura electrónica",
-          "description2": "Agiliza tu proceso de facturación y el control de tus cuentas por cobrar para hacer más productivo tu negocio o empresa",
           "price": "$1,890.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
@@ -827,19 +827,19 @@
           ],
           "screenshots": [
             {
-              "tab": "",
+              "tab": "Addendas",
               "image": "../../assets/image/contpaqi/screenshot1.png"
             },
             {
-              "tab": "",
+              "tab": "Multi RFC",
               "image": "../../assets/image/contpaqi/screenshot2.png"
             },
             {
-              "tab": "",
+              "tab": "Catálogo",
               "image": "../../assets/image/contpaqi/screenshot3.png"
             },
             {
-              "tab": "",
+              "tab": "Cuentas por cobrar",
               "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
@@ -851,17 +851,19 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® CFDI Facturación en línea+",
-          "description":
-            "Facilita la emisión y timbrado de tus CFDI por internet y cumple a tiempo con las disposiciones fiscales.",
+          "name": "CONTPAQi CFDI Facturación en línea+",
+          "description": "Facilita la emisión y timbrado de tus CFDI por internet y cumple a tiempo con las disposiciones fiscales.",
+          "description2": "Facilita la emisión y timbrado de tus CFDI por internet y cumple a tiempo con las disposiciones fiscales.",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-6.jpg",
           "link": "/contpaqi-cfdi-facturacion-en-linea",
-          "featuredIn": "",
-          "featuredLink": "https://www.adaware.com.mx/licencias.php",
+          "featuredIn": "Versión:",
+          "featuredLink": "https://www.adaware.com.mx/contacto.php?donde=mexico",
           "view": "3.4.4",
-          "love": "",
-          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
+          "love": "https://www.adaware.com.mx/descargas/FichaCFDIenlinea.pdf",
+          "trialdesc": "CONTPAQi CFDI Facturación en línea+ es una solución muy flexible y fácil de usar, pruébalo por un período de 30 días y conoce los beneficios que tu empresa obtendrá.",
           "BannerImage": "../../assets/image/contpaqiCFDIenLinea/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
+          "Youtube": "https://www.youtube.com/embed/ugm3tN1pHxk",
+          "subtitulo": "CONTPAQi® CFDI Facturación en línea+ emite en línea tus CFDI de manera ilimitada",
           "buildWith": [
             {
               "content": "CFDI 3.3"
@@ -873,42 +875,40 @@
               "content": "Flexible"
             }
           ],
-          "name": "CONTPAQi ",
-          "description2": "",
-          "price": "$",
+          "price": "$900",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
-              "content": "ooo"
+              "content": "Folios Ilimitados sin costo adicional"
             },
             {
-              "content": "ooo"
+              "content": "Emite facturas, notas de cargo, crédito, recibos de honorarios"
             },
             {
-              "content": "ooo"
+              "content": "Flexible y fácil de usar, con su asistente de configuración"
             },
             {
-              "content": "ooo"
+              "content": "Catálogos con la información de tus clientes y productos"
             }
           ],
           "screenshots": [
             {
-              "tab": "",
+              "tab": "Login En Línea",
               "image": "../../assets/image/contpaqi/screenshot1.png"
             },
             {
-              "tab": "",
+              "tab": "Pagos",
               "image": "../../assets/image/contpaqi/screenshot2.png"
             },
             {
-              "tab": "",
+              "tab": "Facturación",
               "image": "../../assets/image/contpaqi/screenshot3.png"
             },
             {
-              "tab": "",
+              "tab": "Catálogos",
               "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
@@ -920,17 +920,19 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® Comercial",
-          "description":
-            "Integra procesos de compras, ventas, facturación e inventarios con la versión que mejor se adapta a las necesidades de tu empresa.",
+          "name": "CONTPAQi Comercial Start, Pro, Premium",
+          "description": "Integra procesos de compras, ventas, facturación e inventarios con la versión que mejor se adapta a las necesidades de tu empresa.",
+          "description2": "Integra los procesos de compras, ventas, facturación e inventarios con 3 versiones que mejor se adaptan a las necesidades de tu empresa",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-7.jpg",
           "link": "/contpaqi-comercial",
-          "featuredIn": "2019-Abril-26",
+          "featuredIn": "2019-Julio-31",
           "featuredLink": "https://www.adaware.com.mx/licencias.php",
-          "view": "4.5.1",
-          "love": "",
-          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
+          "view": "5.0.1",
+          "love": "https://www.adaware.com.mx/descargas/CT_Comercial_Premium_501.pdf",
+          "trialdesc": "Prueba CONTPAQi® Comercial Premium por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiComercial/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
+          "Youtube": "https://www.youtube.com/embed/U1_zCLyVdSk",
+          "subtitulo": "CONTPAQi® Comercial, administra, controla e integra tu ciclo comercial de compra y venta con tu proceso contable",
           "buildWith": [
             {
               "content": "Contable"
@@ -942,8 +944,6 @@
               "content": "Ventas"
             }
           ],
-          "name": "CONTPAQi Comercial Start, Pro, Premium",
-          "description2": "Integra los procesos de compras, ventas, facturación e inventarios con 3 versiones que mejor se adaptan a las necesidades de tu empresa",
           "price": "$1,890.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
@@ -965,20 +965,20 @@
           ],
           "screenshots": [
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot1.png"
+              "tab": "Compras y Gastos",
+              "image": "../../assets/image/contpaqiComercial/screenshot1.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot2.png"
+              "tab": "Inventarios",
+              "image": "../../assets/image/contpaqiComercial/screenshot2.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot3.png"
+              "tab": "Ventas",
+              "image": "../../assets/image/contpaqiComercial/screenshot3.png"
             },
             {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot4.png"
+              "tab": "Pólizas",
+              "image": "../../assets/image/contpaqiComercial/screenshot4.png"
             }
           ]
         }
@@ -989,17 +989,19 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® Producción",
-          "description":
-            "Controla y administra los recursos/procesos de producción y fabricación de tu empresa e impulsa la productividad de tu negocio.",
+          "name": "CONTPAQi Producción",
+          "description": "Controla y administra los recursos/procesos de producción y fabricación de tu empresa e impulsa la productividad de tu negocio.",
+          "description2": "Integra tus procesos de fabricación e impulsa la productividad y eficiencia de tu negocio.",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-8.jpg",
           "link": "/contpaqi-produccion",
           "featuredIn": "2019-Mayo-23",
           "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "3.1.0",
-          "love": "",
-          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
+          "love": "https://www.adaware.com.mx/descargas/Carta_TecnicaProduccion_V310.pdf",
+          "trialdesc": "Descarga gratuitamente CONTPAQi Producción o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiProduccion/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
+          "Youtube": "https://www.youtube.com/embed/ACvvyAz4BEE",
+          "subtitulo": "CONTPAQi® Producción Buenas prácticas de manufactura para controlar tu producción",
           "buildWith": [
             {
               "content": "Administra"
@@ -1011,25 +1013,23 @@
               "content": "Rentabilidad"
             }
           ],
-          "name": "CONTPAQi ",
-          "description2": "",
-          "price": "$",
+          "price": "$13,750",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
-              "content": "ooo"
+              "content": "Controla los costos de producción: materia prima, mano de obra e indirectos"
             },
             {
-              "content": "ooo"
+              "content": "Facilita la gestión de órdenes de producción, capacidad instalada de la planta y genera el plan maestro"
             },
             {
-              "content": "ooo"
+              "content": "Administra eficientemente inventarios, estima y cuida los costos para asegurar la rentabilidad de los procesos"
             },
             {
-              "content": "ooo"
+              "content": "Catálogos de ingeniería y adaptación de ciclos de trabajo por procesos o productos"
             }
           ],
           "screenshots": [
@@ -1058,17 +1058,19 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® Punto de Venta",
-          "description":
-            "Cuida tu caja y agiliza operaciones de tu punto de venta, inventarios y facturación. ¡Ideal para empresas de comercio al detalle!",
+          "name": "CONTPAQi Punto de Venta",
+          "description": "Cuida tu caja y agiliza operaciones de tu punto de venta, inventarios y facturación. ¡Ideal para empresas de comercio al detalle!",
+          "description2": "Cuida tu caja y agiliza las operaciones de tu punto de venta. Se adapta fácilmente a empresas de comercio con venta al detalle",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-9.jpg",
           "link": "/contpaqi-punto-de-venta",
-          "featuredIn": "2018-Febrero-28",
+          "featuredIn": "2019-Junio-20",
           "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "4.2.0",
-          "love": "",
+          "love": "https://www.adaware.com.mx/descargas/CT_Punto_de_venta_420.pdf",
           "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiPDV/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
+          "Youtube": "https://www.youtube.com/embed/QKQ6xiFHLHM",
+          "subtitulo": "CONTPAQi® Punto de Venta Agiliza las operaciones en tu punto de venta, inventarios, caja y facturación.",
           "buildWith": [
             {
               "content": "CFDI"
@@ -1080,8 +1082,6 @@
               "content": "Inventarios"
             }
           ],
-          "name": "CONTPAQi Punto de Venta",
-          "description2": "Cuida tu caja y agiliza las operaciones de tu punto de venta. Se adapta fácilmente a empresas de comercio con venta al detalle",
           "price": "$2,990.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
@@ -1103,19 +1103,19 @@
           ],
           "screenshots": [
             {
-              "tab": "",
+              "tab": "Inventarios",
               "image": "../../assets/image/contpaqi/screenshot1.png"
             },
             {
-              "tab": "",
+              "tab": "Clasificación",
               "image": "../../assets/image/contpaqi/screenshot2.png"
             },
             {
-              "tab": "",
+              "tab": "Reportes",
               "image": "../../assets/image/contpaqi/screenshot3.png"
             },
             {
-              "tab": "",
+              "tab": "Productos",
               "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]
@@ -1127,8 +1127,9 @@
       "portfolioItem": [
         {
           "title": "CONTPAQi® CRM",
-          "description":
-            "Organiza, controla y gestiona la relación con tus clientes, facilitando la comunicación y seguimiento oportuno.",
+          "name": "CONTPAQi CRM",
+          "description": "Organiza, controla y gestiona la relación con tus clientes, facilitando la comunicación y seguimiento oportuno.",
+          "description2": "Organiza, controla y gestiona la relación con tus clientes, facilitando la comunicación y seguimiento oportuno.",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-10.jpg",
           "link": "/contpaqi-crm",
           "featuredIn": "",
@@ -1137,7 +1138,8 @@
           "love": "",
           "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
           "BannerImage": "../../assets/image/contpaqiCRM/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/82Avo4E7QGQ",
+          "Youtube": "https://www.youtube.com/embed/sE3vUX1qcEw",
+          "subtitulo": "CONTPAQi® CRM da a tu Fuerza de Ventas la herramienta para vender más",
           "buildWith": [
             {
               "content": "Ventas"
@@ -1149,25 +1151,23 @@
               "content": "Control"
             }
           ],
-          "name": "CONTPAQi ",
-          "description2": "",
-          "price": "$",
+          "price": "$3,708",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
           "url": "https://www.adaware.com.mx/licencias.php",
           "listItems": [
             {
-              "content": "ooo"
+              "content": "Aplicación segura en la nube que se adapta a tus procesos comerciales"
             },
             {
-              "content": "ooo"
+              "content": "Control, organización e incremento de tus ventas"
             },
             {
-              "content": "ooo"
+              "content": "Seguimiento de tus llamadas, correos electrónicos, visitas y cotizaciones"
             },
             {
-              "content": "ooo"
+              "content": "Velocidad de respuesta única con un seguimiento de tus asesores detallado"
             }
           ],
           "screenshots": [

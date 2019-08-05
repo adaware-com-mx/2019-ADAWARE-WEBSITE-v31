@@ -622,22 +622,22 @@ export const SCREENSHOTS4 = [
 export const SCREENSHOTS5 = [
   {
     icon: ic_monetization_on,
-    title: 'Comprobantes',
+    title: 'Addendas',
     image: Screenshot51,
   },
   {
     icon: ic_settings,
-    title: 'Conexión SAT',
+    title: 'Multi RFC',
     image: Screenshot52,
   },
   {
     icon: ic_settings,
-    title: 'Visor',
+    title: 'Catálogo',
     image: Screenshot53,
   },
   {
     icon: briefcase,
-    title: 'ADD',
+    title: 'Cuentas por cobrar',
     image: Screenshot54,
   },
 ];
@@ -646,22 +646,22 @@ export const SCREENSHOTS5 = [
 export const SCREENSHOTS6 = [
   {
     icon: ic_monetization_on,
-    title: 'Comprobantes',
+    title: 'Login En Línea',
     image: Screenshot61,
   },
   {
     icon: ic_settings,
-    title: 'Conexión SAT',
+    title: 'Pagos',
     image: Screenshot62,
   },
   {
     icon: ic_settings,
-    title: 'Visor',
+    title: 'Facturación',
     image: Screenshot63,
   },
   {
     icon: briefcase,
-    title: 'ADD',
+    title: 'Catálogos',
     image: Screenshot64,
   },
 ];
@@ -670,22 +670,22 @@ export const SCREENSHOTS6 = [
 export const SCREENSHOTS7 = [
   {
     icon: ic_monetization_on,
-    title: 'Comprobantes',
+    title: 'Compras y Gastos',
     image: Screenshot71,
   },
   {
     icon: ic_settings,
-    title: 'Conexión SAT',
+    title: 'Inventarios',
     image: Screenshot72,
   },
   {
     icon: ic_settings,
-    title: 'Visor',
+    title: 'Ventas',
     image: Screenshot73,
   },
   {
     icon: briefcase,
-    title: 'ADD',
+    title: 'Pólizas',
     image: Screenshot74,
   },
 ];
@@ -693,23 +693,23 @@ export const SCREENSHOTS7 = [
 
 export const SCREENSHOTS8 = [
   {
-    icon: ic_monetization_on,
-    title: 'Comprobantes',
+    icon: ic_settings,
+    title: 'Configuración',
     image: Screenshot81,
   },
   {
     icon: ic_settings,
-    title: 'Conexión SAT',
+    title: 'Catálogos',
     image: Screenshot82,
   },
   {
-    icon: ic_settings,
-    title: 'Visor',
+    icon: ic_monetization_on,
+    title: 'Operaciones',
     image: Screenshot83,
   },
   {
     icon: briefcase,
-    title: 'ADD',
+    title: 'Requerimientos',
     image: Screenshot84,
   },
 ];
@@ -718,22 +718,22 @@ export const SCREENSHOTS8 = [
 export const SCREENSHOTS9 = [
   {
     icon: ic_monetization_on,
-    title: 'Comprobantes',
+    title: 'Inventarios',
     image: Screenshot91,
   },
   {
     icon: ic_settings,
-    title: 'Conexión SAT',
+    title: 'Clasificación',
     image: Screenshot92,
   },
   {
     icon: ic_settings,
-    title: 'Visor',
+    title: 'Reportes',
     image: Screenshot93,
   },
   {
     icon: briefcase,
-    title: 'ADD',
+    title: 'Productos',
     image: Screenshot94,
   },
 ];
@@ -741,23 +741,23 @@ export const SCREENSHOTS9 = [
 
 export const SCREENSHOTS10 = [
   {
-    icon: ic_monetization_on,
-    title: 'Comprobantes',
+    icon: ic_settings,
+    title: 'Conversión',
     image: Screenshot101,
   },
   {
     icon: ic_settings,
-    title: 'Conexión SAT',
+    title: 'Plantillas',
     image: Screenshot102,
   },
   {
-    icon: ic_settings,
-    title: 'Visor',
+    icon: ic_monetization_on,
+    title: 'Reportes',
     image: Screenshot103,
   },
   {
     icon: briefcase,
-    title: 'ADD',
+    title: 'Seguimientos',
     image: Screenshot104,
   },
 ];
@@ -959,6 +959,7 @@ export const PORTFOLIO_COMERCIAL = [
         trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage5,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
+        subtitulo: 'CONTPAQi® Factura Electrónica sistema que facilita la emisión y recepción de tu CFDI',
         buildWith: [
           {
             content: 'Folios',
@@ -989,6 +990,7 @@ export const PORTFOLIO_COMERCIAL = [
         trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage6,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
+        subtitulo: 'CONTPAQi® CFDI Facturación en línea+ Emite tus CFDI de manera ilimitada',
         buildWith: [
           {
             content: 'CFDI 3.3',
@@ -1019,6 +1021,7 @@ export const PORTFOLIO_COMERCIAL = [
         trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage7,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
+        subtitulo: 'CONTPAQi® Comercial administra tu ciclo comercial de compra/venta con tu proceso contable',
         buildWith: [
           {
             content: 'Contable',
@@ -1049,6 +1052,7 @@ export const PORTFOLIO_COMERCIAL = [
         trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage8,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
+        subtitulo: 'CONTPAQi® Producción buenas prácticas de manufactura para controlar tu producción',
         buildWith: [
           {
             content: 'Administra',
@@ -1079,6 +1083,7 @@ export const PORTFOLIO_COMERCIAL = [
         trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage9,
         Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
+        subtitulo: 'CONTPAQi® Punto de Venta agiliza las operaciones en tus inventarios, caja y facturación.',
         buildWith: [
           {
             content: 'CFDI',
@@ -1108,7 +1113,8 @@ export const PORTFOLIO_COMERCIAL = [
         love: '',
         trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage10,
-        Youtube: 'https://www.youtube.com/embed/82Avo4E7QGQ',
+        Youtube: 'https://www.youtube.com/embed/sE3vUX1qcEw',
+        subtitulo: 'CONTPAQi® CRM da a tu Fuerza de Ventas la herramienta para vender más',
         buildWith: [
           {
             content: 'Ventas',
