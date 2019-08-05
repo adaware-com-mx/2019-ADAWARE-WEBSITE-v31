@@ -33,7 +33,7 @@ const TrialSection = ({
         }
       }
       saasModernJson {
-        PORTFOLIO_COMERCIAL {
+        PORTFOLIO_OTROS {
           portfolioItem {
             price
             buttonLabel
@@ -52,19 +52,19 @@ const TrialSection = ({
     featuredLink,
     love,
     trialdesc,
-  } = data.saasModernJson.PORTFOLIO_COMERCIAL[1].portfolioItem[0];
+  } = data.saasModernJson.PORTFOLIO_OTROS[0].portfolioItem[0];
 
   return (
     <Box {...sectionWrapper}>
       <Container>
         <Box {...row}>
-          <Box {...imageArea}>
+          {/* <Box {...imageArea}>
             <Image fluid={data.VendorLogos.childImageSharp.fluid} alt="Vendor Logo"  {...ImageOne} />
-          </Box>
+          </Box> */}
           <Box {...textArea}>
             <Heading
               {...title}
-              content={"Desde MXN "+price+" + IVA"}
+              content={"Desde "+price+" + IVA"}
             />
             <Text
               {...description}
@@ -74,13 +74,13 @@ const TrialSection = ({
               <a href={featuredLink}>
                 <Button title={buttonLabel} {...btnStyle} />
               </a>
-              <a href={love}>
+              {/* <a href={love}>
                 <Button
                   title=" Descarga ficha técnica"
                   variant="textButton"
                   {...outlineBtnStyle}
                 />
-              </a>
+              </a> */}
             </Box>
           </Box>
         </Box>

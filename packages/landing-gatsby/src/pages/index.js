@@ -51,7 +51,7 @@ export default () => {
           <InfoSectionLeft />
           <TestimonialSection />
           <FaqSection />
-          <TrialSection />
+          {/* <TrialSection /> */}
           <Footer />
         </ContentWrapper>
         {/* End of SaasModern wrapper section */}

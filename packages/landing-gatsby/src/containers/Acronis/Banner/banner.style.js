@@ -16,7 +16,7 @@ const Bubble = keyframes`
 
 export const BannerWrapper = styled.section`
   padding: 150px 0 50px 0;
-  background-color: ${themeGet('colors.cfdi')};
+  background-color: #022255;
   background-image: linear-gradient(
     0grad, 
     rgba(0, 0, 0, 0) 70%, 

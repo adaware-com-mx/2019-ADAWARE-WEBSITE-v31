@@ -1192,6 +1192,151 @@
       ]
     }
   ],
+
+  "PORTFOLIO_OTROS": [
+    {
+      "title": "Acronis",
+      "portfolioItem": [
+        {
+          "title": "Acronis Backup",
+          "name": "Acronis Backup",
+          "description": "La copia de seguridad más fiable y fácil para empresas de cualquier tamaño.",
+          "description2": "Protege cualquier tipo de datos en cualquier entorno, desde pequeñas empresas hasta organizaciones grandes y complejas",
+          "image": "../../assets/image/productos/prodimage2.jpg",
+          "link": "/acronis",
+          "featuredIn": "Versión:",
+          "featuredLink": "https://www.adaware.com.mx/contacto.php?donde=mexico",
+          "view": "12.5",
+          "love": "https://www.adaware.com.mx/descargas/CT_Factura_electronica_630.pdf",
+          "trialdesc": "Evalúa Acronis Backup gratuitamente por un período de 30 días y conoce los beneficios que dará a tu departamento de TI, el poder mantener tu negocio en funcionamiento.",
+          "BannerImage": "../../assets/image/acronis/banner-image.png",
+          "Youtube": "https://www.youtube.com/embed/nnAzOIxfy9U",
+          "subtitulo": "La copia de seguridad más fiable y fácil para empresas de cualquier tamaño.",
+          "buildWith": [
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            }
+          ],
+          "price": "USD $99.00*",
+          "priceLabel": "*desde / Dólares",
+          "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
+          "url": "https://www.adaware.com.mx/contacto.php?donde=mexico",
+          "listItems": [
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "ooo",
+              "image": "../../assets/image/acronis/screenshot1.png"
+            },
+            {
+              "tab": "ooo",
+              "image": "../../assets/image/acronis/screenshot2.png"
+            },
+            {
+              "tab": "ooo",
+              "image": "../../assets/image/acronis/screenshot3.png"
+            },
+            {
+              "tab": "ooo",
+              "image": "../../assets/image/acronis/screenshot4.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gigas",
+      "portfolioItem": [
+        {
+          "title": "Gigas",
+          "name": "Gigas",
+          "description": "El cloud datacenter de GIGAS permite a las empresas disponer de un pool de recursos, memoria, procesador y disco, sobre los que pueden desplegar una infraestructura cloud totalmente flexible, escalable y, con importantes reducciones de costos.",
+          "description2": "El cloud datacenter de GIGAS permite a las empresas disponer de un pool de recursos, memoria, procesador y disco, sobre los que pueden desplegar una infraestructura cloud totalmente flexible, escalable y, con importantes reducciones de costos.",
+          "image": "../../assets/image/productos/prodimage3.jpg",
+          "link": "/gigas",
+          "featuredIn": "Versión:",
+          "featuredLink": "https://www.adaware.com.mx/contacto.php?donde=mexico",
+          "view": "2019",
+          "love": "https://www.adaware.com.mx/descargas/",
+          "trialdesc": "ooo",
+          "BannerImage": "../../assets/image/gigas/banner-image.png",
+          "Youtube": "https://www.youtube.com/embed/xMPWnAj6fx8",
+          "subtitulo": "CONTPAQi® CFDI Facturación en línea+ emite en línea tus CFDI de manera ilimitada",
+          "buildWith": [
+            {
+              "content": "ooo 3.3"
+            },
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            }
+          ],
+          "price": "$900",
+          "priceLabel": "*desde / Pesos Mexicanos + IVA",
+          "buttonLabel": "PROBAR 1 MES GRATIS",
+          "legal": "Licencia anual",
+          "url": "https://www.adaware.com.mx/licencias.php",
+          "listItems": [
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            },
+            {
+              "content": "ooo"
+            }
+          ],
+          "screenshots": [
+            {
+              "tab": "ooo",
+              "image": "../../assets/image/contpaqi/screenshot1.png"
+            },
+            {
+              "tab": "ooo",
+              "image": "../../assets/image/contpaqi/screenshot2.png"
+            },
+            {
+              "tab": "ooo",
+              "image": "../../assets/image/contpaqi/screenshot3.png"
+            },
+            {
+              "tab": "ooo",
+              "image": "../../assets/image/contpaqi/screenshot4.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
   "FEATURES": [
     {
       "icon": "../../assets/image/saasModern/icon-1.png",

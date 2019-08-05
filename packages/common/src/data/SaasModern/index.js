@@ -60,6 +60,14 @@ import Screenshot101 from '../../assets/image/contpaqiCRM/screenshot1.png';
 import Screenshot102 from '../../assets/image/contpaqiCRM/screenshot2.png';
 import Screenshot103 from '../../assets/image/contpaqiCRM/screenshot3.png';
 import Screenshot104 from '../../assets/image/contpaqiCRM/screenshot4.png';
+import Screenshot105 from '../../assets/image/acronis/screenshot1.png';
+import Screenshot106 from '../../assets/image/acronis/screenshot2.png';
+import Screenshot107 from '../../assets/image/acronis/screenshot3.png';
+import Screenshot108 from '../../assets/image/acronis/screenshot4.png';
+import Screenshot109 from '../../assets/image/gigas/screenshot1.png';
+import Screenshot110 from '../../assets/image/gigas/screenshot2.png';
+import Screenshot111 from '../../assets/image/gigas/screenshot3.png';
+import Screenshot112 from '../../assets/image/gigas/screenshot4.png';
 
 
 import AuthorOne from '../../assets/image/saasModern/author-1.jpg';
@@ -762,6 +770,52 @@ export const SCREENSHOTS10 = [
   },
 ];
 
+export const SCREENSHOTSACRONIS = [
+  {
+    icon: ic_settings,
+    title: 'Dashboars',
+    image: Screenshot105,
+  },
+  {
+    icon: ic_settings,
+    title: 'Respaldos',
+    image: Screenshot106,
+  },
+  {
+    icon: ic_monetization_on,
+    title: 'Servicios',
+    image: Screenshot107,
+  },
+  {
+    icon: briefcase,
+    title: 'Reportes',
+    image: Screenshot108,
+  },
+];
+
+export const SCREENSHOTSGIGAS = [
+  {
+    icon: ic_settings,
+    title: 'Dashboars',
+    image: Screenshot109,
+  },
+  {
+    icon: ic_settings,
+    title: 'Respaldos',
+    image: Screenshot110,
+  },
+  {
+    icon: ic_monetization_on,
+    title: 'Servicios',
+    image: Screenshot111,
+  },
+  {
+    icon: briefcase,
+    title: 'Reportes',
+    image: Screenshot112,
+  },
+];
+
 
 export const TESTIMONIALS = [
   {
@@ -808,6 +862,7 @@ export const SOCIAL_PROFILES = [
     url: 'https://www.youtube.com/channel/UCV9oHeWqpdZYfExparRLmKQ',
   },
 ];
+
 
 
 
@@ -1130,6 +1185,71 @@ export const PORTFOLIO_COMERCIAL = [
     ],
   },
 
+];
+
+export const PORTFOLIO_OTROS = [
+  {
+    title: 'Acronis',
+    portfolioItem: [
+      {
+        title: 'Acronis',
+        description: "",
+        image: PortfolioImage2,
+        link: '/acronis',
+        featuredIn: '',
+        featuredLink: '',
+        view: '',
+        love: '',
+        trialdesc: '',
+        BannerImage: BannerImage2,
+        Youtube: '',
+        subtitulo: 'La copia de seguridad más fiable y fácil para empresas de cualquier tamaño.',
+        buildWith: [
+          {
+            content: 'CFDI 3.3',
+          },
+          {
+            content: 'ISR e IMSS',
+          },
+          {
+            content: 'Impuestos',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Contabilidad',
+    portfolioItem: [
+      {
+        title: 'CONTPAQi® Contabilidad',
+        description:
+          "Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores.",
+        image: PortfolioImage1,
+        link: '/contpaqi-contabilidad',
+        featuredIn: '2019-Julio-03',
+        featuredLink: 'http://adaware.com.mx/licencias.php',
+        view: '11.6.0',
+        love: '',
+        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
+        BannerImage: BannerImage1,
+        Youtube: 'https://www.youtube.com/embed/wgBEeE9sKSQ',
+        subtitulo: 'CONTPAQi® Contabilidad, el sistema preferido de los contadores.',
+        
+        buildWith: [
+          {
+            content: 'Contable',
+          },
+          {
+            content: 'Fiscal',
+          },
+          {
+            content: 'Financiero',
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export const SOPORTE_TABLE = [

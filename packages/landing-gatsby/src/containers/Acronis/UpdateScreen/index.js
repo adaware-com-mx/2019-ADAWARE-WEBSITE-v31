@@ -12,7 +12,7 @@ import Image from 'reusecore/src/elements/Image';
 import Container from 'common/src/components/UI/Container';
 
 import SectionWrapper from './updateScreen.style';
-import { SCREENSHOTS6, PORTFOLIO_COMERCIAL }  from 'common/src/data/SaasModern/index';
+import { SCREENSHOTSACRONIS, PORTFOLIO_OTROS }  from 'common/src/data/SaasModern/index';
 
 
 const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
@@ -23,7 +23,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
           <Text {...secText} content="DESCUBRE CÓMO TRABAJA" />
           <Heading
             {...secHeading}
-            content={PORTFOLIO_COMERCIAL[1].portfolioItem[0].subtitulo}
+            content={PORTFOLIO_OTROS[0].portfolioItem[0].subtitulo}
           />
         </Box>
         <Tabs
@@ -31,7 +31,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
           renderTabContent={() => <TabContent animatedWithMargin />}
           className="update-screen-tab"
         >
-          {SCREENSHOTS6.map((item, index) => (
+          {SCREENSHOTSACRONIS.map((item, index) => (
             <TabPane
               tab={
                 <>
