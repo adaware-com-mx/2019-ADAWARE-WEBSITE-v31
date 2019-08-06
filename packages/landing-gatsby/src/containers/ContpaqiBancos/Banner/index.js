@@ -23,8 +23,8 @@ import {
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 import { play } from 'react-icons-kit/entypo/play';
 
-import { PORTFOLIO_OTROS }  from 'common/src/data/SaasModern/index';
-const BannerImage = PORTFOLIO_OTROS[0].portfolioItem[0].BannerImage; 
+import { PORTFOLIO_SHOWCASE }  from 'common/src/data/SaasModern/index';
+const BannerImage = PORTFOLIO_SHOWCASE[2].portfolioItem[0].BannerImage; 
 
 // close button for modal
 const CloseModalButton = () => (
@@ -40,7 +40,7 @@ const ModalContent = () => (
   <VideoWrapper>
     <iframe
       title="Video"
-      src={PORTFOLIO_OTROS[0].portfolioItem[0].Youtube}
+      src={PORTFOLIO_SHOWCASE[2].portfolioItem[0].Youtube}
       frameBorder="0"
     />
   </VideoWrapper>
@@ -85,20 +85,20 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content={PORTFOLIO_OTROS[0].portfolioItem[0].featuredIn} />
+                <Text {...discountAmount} content={PORTFOLIO_SHOWCASE[2].portfolioItem[0].featuredIn} />
                 <Text
                   {...discountText}
-                  content={PORTFOLIO_OTROS[0].portfolioItem[0].view}
+                  content={PORTFOLIO_SHOWCASE[2].portfolioItem[0].view}
                 />
               </DiscountLabel>
             </DiscountWrapper>
             <Heading
               {...title}
-              content={PORTFOLIO_OTROS[0].portfolioItem[0].title}
+              content={PORTFOLIO_SHOWCASE[2].portfolioItem[0].title}
             />
             <Text
               {...description}
-              content={PORTFOLIO_OTROS[0].portfolioItem[0].description}
+              content={PORTFOLIO_SHOWCASE[2].portfolioItem[0].description}
             />
             <Box {...buttonWrapper}>
               <Button 

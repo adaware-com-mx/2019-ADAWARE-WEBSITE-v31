@@ -796,22 +796,22 @@ export const SCREENSHOTSACRONIS = [
 export const SCREENSHOTSGIGAS = [
   {
     icon: ic_settings,
-    title: 'Dashboars',
+    title: 'Panel de control',
     image: Screenshot109,
   },
   {
     icon: ic_settings,
-    title: 'Respaldos',
+    title: 'Backups',
     image: Screenshot110,
   },
   {
-    icon: ic_monetization_on,
-    title: 'Servicios',
+    icon: ic_settings,
+    title: 'Balanceadores',
     image: Screenshot111,
   },
   {
-    icon: briefcase,
-    title: 'Reportes',
+    icon: ic_settings,
+    title: 'Firewall',
     image: Screenshot112,
   },
 ];
@@ -1219,22 +1219,21 @@ export const PORTFOLIO_OTROS = [
     ],
   },
   {
-    title: 'Contabilidad',
+    title: 'Gigas',
     portfolioItem: [
       {
-        title: 'CONTPAQi® Contabilidad',
-        description:
-          "Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores.",
+        title: 'Gigas',
+        description: "",
         image: PortfolioImage1,
-        link: '/contpaqi-contabilidad',
-        featuredIn: '2019-Julio-03',
-        featuredLink: 'http://adaware.com.mx/licencias.php',
-        view: '11.6.0',
+        link: '/gigas',
+        featuredIn: '',
+        featuredLink: '',
+        view: '',
         love: '',
         trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
         BannerImage: BannerImage1,
         Youtube: 'https://www.youtube.com/embed/wgBEeE9sKSQ',
-        subtitulo: 'CONTPAQi® Contabilidad, el sistema preferido de los contadores.',
+        subtitulo: 'GIGAS La forma más fácil de desplegar infraestructura en la nube.',
         
         buildWith: [
           {

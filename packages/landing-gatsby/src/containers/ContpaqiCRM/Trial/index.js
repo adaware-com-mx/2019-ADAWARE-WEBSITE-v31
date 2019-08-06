@@ -74,13 +74,17 @@ const TrialSection = ({
               <a href={featuredLink}>
                 <Button title={buttonLabel} {...btnStyle} />
               </a>
-              {/* <a href={love}>
-                <Button
-                  title=" Descarga ficha técnica"
-                  variant="textButton"
-                  {...outlineBtnStyle}
-                />
-              </a> */}
+              {love ? (
+                <a href={love}>
+                  <Button
+                    title=" Descarga ficha técnica"
+                    variant="textButton"
+                    {...outlineBtnStyle}
+                  />
+                </a>
+                ) : (
+                  ''
+              )}
             </Box>
           </Box>
         </Box>

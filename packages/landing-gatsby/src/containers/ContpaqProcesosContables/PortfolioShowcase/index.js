@@ -47,7 +47,6 @@ const PortfolioShowcase = ({
             link
             view
             love
-            trialdesc
             featuredIn
             featuredLink
             image {
@@ -67,7 +66,6 @@ const PortfolioShowcase = ({
             link
             view
             love
-            trialdesc
             featuredIn
             featuredLink
             image {
@@ -173,8 +171,7 @@ const PortfolioShowcase = ({
 
                           {portfolioItem.featuredIn ||
                           portfolioItem.view ||
-                          portfolioItem.love ||
-                          portfolioItem.trialdesc ? (
+                          portfolioItem.love ? (
                             <PortfolioMeta>
                               {portfolioItem.featuredIn ? (
                                 <MetaItem className="meta_featured">
@@ -195,14 +192,9 @@ const PortfolioShowcase = ({
                               )}
                               {portfolioItem.love ? (
                                 <MetaItem>
-                                  <b>{portfolioItem.love}</b> 
-                                </MetaItem>
-                              ) : (
-                                ''
-                              )}
-                              {portfolioItem.trialdesc ? (
-                                <MetaItem>
-                                  <b>{portfolioItem.trialdesc}</b> 
+                                  <Link to={portfolioItem.love || '#'}>
+                                    Ficha técnica PDF
+                                  </Link>
                                 </MetaItem>
                               ) : (
                                 ''
@@ -303,8 +295,7 @@ const PortfolioShowcase = ({
 
                           {portfolioItem.featuredIn ||
                           portfolioItem.view ||
-                          portfolioItem.love ||
-                          portfolioItem.trialdesc ? (
+                          portfolioItem.love ? (
                             <PortfolioMeta>
                               {portfolioItem.featuredIn ? (
                                 <MetaItem className="meta_featured">
@@ -327,14 +318,9 @@ const PortfolioShowcase = ({
                               )}
                               {portfolioItem.love ? (
                                 <MetaItem>
-                                  <b>{portfolioItem.love}</b> 
-                                </MetaItem>
-                              ) : (
-                                ''
-                              )}
-                              {portfolioItem.trialdesc ? (
-                                <MetaItem>
-                                  <b>{portfolioItem.trialdesc}</b> 
+                                  <Link to={portfolioItem.love || '#'}>
+                                    Ficha técnica PDF
+                                  </Link>
                                 </MetaItem>
                               ) : (
                                 ''

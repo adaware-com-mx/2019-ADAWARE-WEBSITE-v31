@@ -856,7 +856,7 @@
           "description2": "Facilita la emisión y timbrado de tus CFDI por internet y cumple a tiempo con las disposiciones fiscales.",
           "image": "../../assets/image/ContpaqProcesosContables/portfolio-6.jpg",
           "link": "/contpaqi-cfdi-facturacion-en-linea",
-          "featuredIn": "Versión:",
+          "featuredIn": "",
           "featuredLink": "https://www.adaware.com.mx/contacto.php?donde=mexico",
           "view": "3.4.4",
           "love": "https://www.adaware.com.mx/descargas/FichaCFDIenlinea.pdf",
@@ -1214,13 +1214,13 @@
           "subtitulo": "La copia de seguridad más fiable y fácil para empresas de cualquier tamaño.",
           "buildWith": [
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             }
           ],
           "price": "USD $99.00*",
@@ -1230,36 +1230,36 @@
           "url": "https://www.adaware.com.mx/contacto.php?donde=mexico",
           "listItems": [
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             }
           ],
           "screenshots": [
             {
-              "tab": "ooo",
+              "tab": "",
               "image": "../../assets/image/acronis/screenshot1.png"
             },
             {
-              "tab": "ooo",
+              "tab": "",
               "image": "../../assets/image/acronis/screenshot2.png"
             },
             {
-              "tab": "ooo",
+              "tab": "",
               "image": "../../assets/image/acronis/screenshot3.png"
             },
             {
-              "tab": "ooo",
+              "tab": "",
               "image": "../../assets/image/acronis/screenshot4.png"
             }
           ]
@@ -1270,65 +1270,65 @@
       "title": "Gigas",
       "portfolioItem": [
         {
-          "title": "Gigas",
-          "name": "Gigas",
+          "title": "Gigas Cloud Datacenter",
+          "name": "Gigas® Cloud Datacenter",
           "description": "El cloud datacenter de GIGAS permite a las empresas disponer de un pool de recursos, memoria, procesador y disco, sobre los que pueden desplegar una infraestructura cloud totalmente flexible, escalable y, con importantes reducciones de costos.",
-          "description2": "El cloud datacenter de GIGAS permite a las empresas disponer de un pool de recursos, memoria, procesador y disco, sobre los que pueden desplegar una infraestructura cloud totalmente flexible, escalable y, con importantes reducciones de costos.",
+          "description2": "Tu empresa puede disponer de un pool de recursos, memoria, procesador y disco, sobre los que pueden desplegar una infraestructura cloud totalmente flexible, escalable y con importantes reducciones de costos.",
           "image": "../../assets/image/productos/prodimage3.jpg",
           "link": "/gigas",
-          "featuredIn": "Versión:",
+          "featuredIn": "",
           "featuredLink": "https://www.adaware.com.mx/contacto.php?donde=mexico",
           "view": "2019",
-          "love": "https://www.adaware.com.mx/descargas/",
-          "trialdesc": "ooo",
+          "love": "",
+          "trialdesc": "",
           "BannerImage": "../../assets/image/gigas/banner-image.png",
           "Youtube": "https://www.youtube.com/embed/xMPWnAj6fx8",
-          "subtitulo": "CONTPAQi® CFDI Facturación en línea+ emite en línea tus CFDI de manera ilimitada",
+          "subtitulo": "Gigas Cloud Datacenter la forma más fácil de desplegar infraestructura cloud",
           "buildWith": [
             {
-              "content": "ooo 3.3"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             }
           ],
-          "price": "$900",
-          "priceLabel": "*desde / Pesos Mexicanos + IVA",
+          "price": "USD $180",
+          "priceLabel": "*desde / Dólares",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
-          "url": "https://www.adaware.com.mx/licencias.php",
+          "url": "",
           "listItems": [
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             },
             {
-              "content": "ooo"
+              "content": ""
             }
           ],
           "screenshots": [
             {
-              "tab": "ooo",
+              "tab": "",
               "image": "../../assets/image/contpaqi/screenshot1.png"
             },
             {
-              "tab": "ooo",
+              "tab": "",
               "image": "../../assets/image/contpaqi/screenshot2.png"
             },
             {
-              "tab": "ooo",
+              "tab": "",
               "image": "../../assets/image/contpaqi/screenshot3.png"
             },
             {
-              "tab": "ooo",
+              "tab": "",
               "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]

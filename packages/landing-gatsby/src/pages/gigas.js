@@ -11,9 +11,9 @@ import {
 } from '../containers/SaasModern/sassModern.style';
 
 import Navbar from '../containers/SaasModern/Navbar';
-import BannerSection from '../containers/Acronis/Banner';
-import UpdateScreen from '../containers/Acronis/UpdateScreen';
-import TrialSection from '../containers/Acronis/Trial';
+import BannerSection from '../containers/Gigas/Banner';
+import UpdateScreen from '../containers/Gigas/UpdateScreen';
+import TrialSection from '../containers/Gigas/Trial';
 
 import Footer from '../containers/SaasModern/Footer';
 import '@redq/reuse-modal/es/index.css';
@@ -23,7 +23,7 @@ export default () => {
   return (
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
-        <SEO title="Acronis - ADAWARE" />
+        <SEO title="Gigas Cloud Datacenter - ADAWARE" />
         <Modal />
         <ResetCSS />
         <GlobalStyle />

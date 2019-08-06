@@ -33,7 +33,7 @@ const TrialSection = ({
         }
       }
       saasModernJson {
-        PORTFOLIO_SHOWCASE {
+        PORTFOLIO_OTROS {
           portfolioItem {
             price
             buttonLabel
@@ -52,19 +52,19 @@ const TrialSection = ({
     featuredLink,
     love,
     trialdesc,
-  } = data.saasModernJson.PORTFOLIO_SHOWCASE[0].portfolioItem[0];
+  } = data.saasModernJson.PORTFOLIO_OTROS[1].portfolioItem[0];
 
   return (
     <Box {...sectionWrapper}>
       <Container>
         <Box {...row}>
-          <Box {...imageArea}>
+          {/* <Box {...imageArea}>
             <Image fluid={data.VendorLogos.childImageSharp.fluid} alt="Vendor Logo"  {...ImageOne} />
-          </Box>
+          </Box> */}
           <Box {...textArea}>
             <Heading
               {...title}
-              content={"Cómpralo desde MXN "+price+" + IVA"}
+              content={"Adquiere Gigas Cloud Datacenter desde "+price+""}
             />
             <Text
               {...description}
@@ -74,6 +74,7 @@ const TrialSection = ({
               <a href={featuredLink}>
                 <Button title={buttonLabel} {...btnStyle} />
               </a>
+
               {love ? (
                 <a href={love}>
                   <Button

@@ -1,13 +1,13 @@
 import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Button from 'reusecore/src/elements/Button';
-import Image from 'reusecore/src/elements/Image';
+import Image from 'gatsby-image';
 import Container from 'common/src/components/UI/Container';
 
-import VendorLogos from 'common/src/assets/image/contpaqiContabilidad/vendor-logos-contabilidad.png';
 
 const TrialSection = ({
   sectionWrapper,
@@ -21,29 +21,70 @@ const TrialSection = ({
   outlineBtnStyle,
   buttonWrapper,
 }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      VendorLogos: file(
+        relativePath: { eq: "image/contpaqiContabilidad/vendor-logos-contabilidad.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 424, quality: 100) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      }
+      saasModernJson {
+        PORTFOLIO_SHOWCASE {
+          portfolioItem {
+            price
+            buttonLabel
+            featuredLink
+            love
+            trialdesc
+          }
+        }
+      }
+    }
+  `);
+
+  const { 
+    price,
+    buttonLabel,
+    featuredLink,
+    love,
+    trialdesc,
+  } = data.saasModernJson.PORTFOLIO_SHOWCASE[2].portfolioItem[0];
+
   return (
     <Box {...sectionWrapper}>
       <Container>
         <Box {...row}>
           <Box {...imageArea}>
-            <Image {...ImageOne} src={VendorLogos} alt="VendorLogos" />
+          <Image fluid={data.VendorLogos.childImageSharp.fluid} alt="Vendor Logo"  {...ImageOne} />
           </Box>
           <Box {...textArea}>
             <Heading
               {...title}
-              content="Cómpralo desde MXN $3890.00* + IVA"
+              content={"Cómpralo desde MXN "+price+" + IVA"}
             />
             <Text
               {...description}
-              content="Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa."
+              content={trialdesc}
             />
             <Box {...buttonWrapper}>
-              <Button title="PROBAR 1 MES GRATIS" {...btnStyle} />
-              <Button
-                title=" Descarga ficha técnica"
-                variant="textButton"
-                {...outlineBtnStyle}
-              />
+              <a href={featuredLink}>
+                <Button title={buttonLabel} {...btnStyle} />
+              </a>
+              {love ? (
+                <a href={love}>
+                  <Button
+                    title=" Descarga ficha técnica"
+                    variant="textButton"
+                    {...outlineBtnStyle}
+                  />
+                </a>
+                ) : (
+                  ''
+              )}
             </Box>
           </Box>
         </Box>

@@ -40,7 +40,7 @@ const BannerSection = ({
   const data = useStaticQuery(graphql`
     query {
       bannerImage: file(
-        relativePath: { eq: "image/contpaqiCFDIenLinea/banner-image.png" }
+        relativePath: { eq: "image/gigas/banner-image.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1170, quality: 80) {
@@ -49,7 +49,7 @@ const BannerSection = ({
         }
       }
       saasModernJson {
-        PORTFOLIO_COMERCIAL {
+        PORTFOLIO_OTROS {
           portfolioItem {
             featuredIn
             view
@@ -67,7 +67,7 @@ const BannerSection = ({
     view,
     title,
     description2,
-    Youtube } = data.saasModernJson.PORTFOLIO_COMERCIAL[1].portfolioItem[0];
+    Youtube } = data.saasModernJson.PORTFOLIO_OTROS[1].portfolioItem[0];
 
   // close button for modal
   const CloseModalButton = () => (
@@ -124,7 +124,6 @@ const BannerSection = ({
                   ) : (
                     <Text {...discountAmount} content='Versión' />
                 )}
-
                 <Text
                   {...discountText}
                   content={view}
