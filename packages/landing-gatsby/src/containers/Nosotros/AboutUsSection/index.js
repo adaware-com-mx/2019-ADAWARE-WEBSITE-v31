@@ -73,9 +73,9 @@ const AboutUsSection = ({
                 title={<Heading content={feature.title} {...featureTitle} />}
               />
             ))}
-            <Link to="/contacto" >
+            <a href="https://www.adaware.com.mx/contacto.php?donde=mexico" >
               <Button title="CONTÁCTANOS" {...btnStyle} />
-            </Link>
+            </a>
           </Box>
         </Box>
       </Box>

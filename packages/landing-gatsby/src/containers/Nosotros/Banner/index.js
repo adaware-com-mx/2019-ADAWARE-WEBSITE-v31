@@ -40,7 +40,7 @@ const BannerSection = ({
               <Heading content="Te asesoramos con software profesional" {...roleStyle} />
             </Box>
             <Text
-              content="Antonio Alarcón funda ADAWARE, en el año 2005, y desde entonces la empresa se ha consolidado como uno de los principales distribuidores de soluciones empresariales y administrativas en México."
+              content="Desde su fundación en el año 2005, la empresa se ha consolidado como uno de los principales distribuidores de soluciones empresariales y administrativas en México."
               {...aboutStyle}
             />
             

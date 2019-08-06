@@ -89,11 +89,6 @@ const FaqSection = ({
                 </>
               </Accordion>
             </FaqWrapper>
-            <Box {...buttonWrapper}>
-              <a href="https://contpaqi.managed-otrs.com/otrs/public.pl">
-                <Button {...button} title="EXPLORA MÁS PREGUNTAS FRECUENTES" />
-              </a>
-            </Box>
           </Box>
         </Box>
       </Container>

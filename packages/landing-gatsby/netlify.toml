@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/privacidad"
+  to = "https://www.adaware.com.mx/2019-AvisoPrivacidad-ADAWARE.pdf:splat"
+
+[[redirects]]
+  from = "/contacto"
+  to = "https://www.adaware.com.mx/contacto.php?donde=mexico:splat"
