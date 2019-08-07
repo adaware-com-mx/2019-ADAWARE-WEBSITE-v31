@@ -13,6 +13,7 @@ import LogoImage from 'common/src/assets/image/saasModern/logo.png';
 
 const Footer = ({
   row,
+  row1,
   col,
   colOne,
   colTwo,
@@ -34,6 +35,11 @@ const Footer = ({
           icon
           url
         }
+      }
+      pdfpriv: file(
+        relativePath: {eq: "image/nosotros/2019-AvisoPrivacidad-ADAWARE.pdf"}) {
+        publicURL
+        name
       }
     }
   `);
@@ -74,6 +80,12 @@ const Footer = ({
           </Box>
           {/* End of footer List column */}
         </Box>
+        <Box className="row" {...row1}>
+          <a href={Data.pdfpriv.publicURL} className="ListItem2">
+            Aviso de Privacidad
+          </a>
+        </Box>
+
       </Container>
     </FooterWrapper>
   );
@@ -82,6 +94,7 @@ const Footer = ({
 // Footer style props
 Footer.propTypes = {
   row: PropTypes.object,
+  row1: PropTypes.object,
   col: PropTypes.object,
   colOne: PropTypes.object,
   colTwo: PropTypes.object,
@@ -98,6 +111,17 @@ Footer.defaultProps = {
     flexWrap: 'wrap',
     ml: '-15px',
     mr: '-15px',
+  },
+  // Priv
+  row1: {
+    width: [1, 1, 1, 1],
+    flexBox: true,
+    flexWrap: 'wrap',
+    ml: 'auto',
+    mr: 'auto',
+    color: '#343d48',
+    fontSize: '14px',
+    fontWeight: '700',
   },
   // Footer col one style
   colOne: {

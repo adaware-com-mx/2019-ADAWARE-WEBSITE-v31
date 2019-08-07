@@ -40,6 +40,20 @@ const FooterWrapper = styled.footer`
       padding-bottom: 0px;
     }
   }
+  
+  .ListItem2 {
+    color: rgba(52, 61, 72, 0.8);
+    font-size: 14px;
+    line-height: 36px;
+    transition: all 0.2s ease;
+    margin: 0 auto;
+    &:hover,
+    &:focus {
+      outline: 0;
+      text-decoration: none;
+      color: #343d48;
+    }
+  }
 `;
 
 const List = styled.ul``;
