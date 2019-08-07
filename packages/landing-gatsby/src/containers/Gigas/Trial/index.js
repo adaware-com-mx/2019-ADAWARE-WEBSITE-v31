@@ -64,7 +64,7 @@ const TrialSection = ({
           <Box {...textArea}>
             <Heading
               {...title}
-              content={"Adquiere Gigas Cloud Datacenter desde "+price+""}
+              content={"Adquiere Gigas Cloud Datacenter"}
             />
             <Text
               {...description}
