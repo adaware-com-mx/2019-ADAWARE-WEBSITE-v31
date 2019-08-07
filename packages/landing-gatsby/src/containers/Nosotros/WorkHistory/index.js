@@ -31,7 +31,7 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
                 />
               }
               button={
-              <Link to="contacto"><Button title="ESCRÍBENOS" {...btnStyle} /></Link>}
+              <a href="https://www.adaware.com.mx/contacto.php?donde=mexico"><Button title="ESCRÍBENOS" {...btnStyle} /></a>}
             />
           </Box>
           <Box className="col" {...col}>
