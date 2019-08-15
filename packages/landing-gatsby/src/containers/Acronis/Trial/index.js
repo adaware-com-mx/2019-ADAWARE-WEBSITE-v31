@@ -64,7 +64,7 @@ const TrialSection = ({
           <Box {...textArea}>
             <Heading
               {...title}
-              content={"Adquiere Acronis Cloud Backup "}
+              content={"Desde "+price+" + IVA"}
             />
             <Text
               {...description}
