@@ -174,12 +174,12 @@ const PricingSection = ({
                         />
                     </PricingHead>
                     <PricingButton>
-                      <Link to={pricingTable.url}>
+                      <a href={pricingTable.url}>
                         <Button
                           title={pricingTable.buttonLabel}
                           {...buttonFillStyle}
                         />
-                      </Link>
+                      </a>
                     </PricingButton>
                     <PricingPrice>
                       <Text

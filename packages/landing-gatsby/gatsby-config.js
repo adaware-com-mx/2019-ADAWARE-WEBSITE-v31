@@ -82,6 +82,23 @@ module.exports = {
             ],
           },
           {
+            family: `Gothic A1`,
+            variants: [
+              `100`,
+              `100i`,
+              `300`,
+              `300i`,
+              `400`,
+              `400i`,
+              `500`,
+              `500i`,
+              `700`,
+              `700i`,
+              `900`,
+              `900i`,
+            ],
+          },
+          {
             family: `Poppins`,
             variants: [`300`, `400`, `500`, `600`, `700`],
           },
@@ -93,6 +110,10 @@ module.exports = {
             family: `Open Sans`,
             variants: [`300`, `400`, `600`, `700`, `800`],
           },
+          {
+            family: `Nanum Gothic`,
+            variants: [`400`, `500`, `600`, `700`, `800`],
+          }
         ],
       },
     },

@@ -2,7 +2,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nanum Gothic', 'Roboto', sans-serif;
   }
 
   h1,
@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gothic A1', 'Roboto', sans-serif;
   }
 
   section {
