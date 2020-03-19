@@ -40,7 +40,7 @@ const BannerSection = ({
   const data = useStaticQuery(graphql`
     query {
       bannerImage: file(
-        relativePath: { eq: "image/contpaqiCRM/banner-image.png" }
+        relativePath: { eq: "image/evalua035/banner-image.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1170, quality: 80) {
@@ -49,7 +49,7 @@ const BannerSection = ({
         }
       }
       saasModernJson {
-        PORTFOLIO_COMERCIAL {
+        PORTFOLIO_PRODUCTIVIDAD {
           portfolioItem {
             featuredIn
             view
@@ -67,7 +67,7 @@ const BannerSection = ({
     view,
     title,
     description2,
-    Youtube } = data.saasModernJson.PORTFOLIO_COMERCIAL[5].portfolioItem[0];
+    Youtube } = data.saasModernJson.PORTFOLIO_PRODUCTIVIDAD[0].portfolioItem[0];
 
   // close button for modal
   const CloseModalButton = () => (
@@ -122,7 +122,7 @@ const BannerSection = ({
                 {featuredIn ? (
                   <Text {...discountAmount} content={featuredIn} />
                   ) : (
-                    <Text {...discountAmount} content='Soluciones para procesos comerciales' />
+                    <Text {...discountAmount} content='Soluciones para mejora de la productividad' />
                 )}
 
                 <Text

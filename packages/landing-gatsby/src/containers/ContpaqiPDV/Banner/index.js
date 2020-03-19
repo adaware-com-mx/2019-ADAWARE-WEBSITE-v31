@@ -119,7 +119,12 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content={featuredIn} />
+                {featuredIn ? (
+                  <Text {...discountAmount} content={featuredIn} />
+                  ) : (
+                    <Text {...discountAmount} content='Soluciones para procesos comerciales' />
+                )}
+
                 <Text
                   {...discountText}
                   content={view}

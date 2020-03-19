@@ -65,8 +65,8 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={Data.saasModernJson.MENU_ITEMS}
               offset={-70}
             />
-            <Link to="/nosotros" className="navbar_button">
-              <Button {...button} title="COMIENZA AQUÍ" />
+            <Link to="/evalua035" className="navbar_button">
+              <Button {...button} title="CUMPLE LA NOM-035" />
             </Link>
             <Drawer
               width="420px"
@@ -81,8 +81,8 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link to="/nosotros" className="navbar_drawer_button">
-                <Button {...button} title="COMIENZA AQUÍ" />
+              <Link to="/evalua035" className="navbar_drawer_button">
+                <Button {...button} title="CUMPLE LA NOM-035" />
               </Link>
             </Drawer>
           </Box>
