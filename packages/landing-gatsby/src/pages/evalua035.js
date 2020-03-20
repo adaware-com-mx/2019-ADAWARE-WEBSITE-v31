@@ -12,6 +12,7 @@ import {
 
 import Navbar from '../containers/SaasModern/Navbar';
 import BannerSection from '../containers/Evalua035/Banner';
+import ServiceSection from '../containers/Evalua035/Paquetes';
 import UpdateScreen from '../containers/Evalua035/UpdateScreen';
 import TrialSection from '../containers/Evalua035/Trial';
 
@@ -36,6 +37,7 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
+          <ServiceSection />
           {/* <UpdateScreen />
           
           <TrialSection /> */}

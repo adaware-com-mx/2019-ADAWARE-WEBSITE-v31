@@ -8,6 +8,12 @@ import Service3 from '../../assets/image/saasModern/service-3.svg';
 import Service4 from '../../assets/image/saasModern/service-4.svg';
 import Service5 from '../../assets/image/saasModern/service-5.svg';
 
+import Paquete1 from '../../assets/image/saasModern/paquete-1.svg';
+import Paquete2 from '../../assets/image/saasModern/paquete-2.svg';
+import Paquete3 from '../../assets/image/saasModern/paquete-3.svg';
+import Paquete4 from '../../assets/image/saasModern/paquete-4.svg';
+import Paquete5 from '../../assets/image/saasModern/paquete-5.svg';
+
 import FeatureIcon1 from '../../assets/image/saasModern/icon-1.png';
 import FeatureIcon2 from '../../assets/image/saasModern/icon-2.png';
 import FeatureIcon3 from '../../assets/image/saasModern/icon-3.png';
@@ -202,6 +208,29 @@ export const SERVICE_ITEMS = [
   {
     icon: Service5,
     title: 'Operativa',
+  },
+];
+
+export const PAQUETES_ITEMS = [
+  {
+    icon: Paquete1,
+    title: '$1,790',
+  },
+  {
+    icon: Paquete2,
+    title: '$4,990',
+  },
+  {
+    icon: Paquete3,
+    title: '$8,990',
+  },
+  {
+    icon: Paquete4,
+    title: '$17,490',
+  },
+  {
+    icon: Paquete5,
+    title: '$29,990',
   },
 ];
 

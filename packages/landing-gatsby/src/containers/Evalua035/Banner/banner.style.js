@@ -16,7 +16,7 @@ const Bubble = keyframes`
 
 export const BannerWrapper = styled.section`
   padding: 150px 0 50px 0;
-  background-color: ${themeGet('colors.contabilidad')};
+  background-color: ${themeGet('colors.evalua035')};
   background-image: linear-gradient(
     0grad, 
     rgba(0, 0, 0, 0) 70%, 
@@ -71,7 +71,7 @@ export const VideoModal = styled.div`
     height: 100%;
     display: block;
     background-color: ${themeGet('colors.black')};
-    opacity: 0.1;
+    opacity: 0.2;
     pointer-events: none;
   }
 

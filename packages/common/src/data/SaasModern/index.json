@@ -1194,10 +1194,10 @@
           "featuredLink": "https://www.adaware.com.mx/licencias.php",
           "view": "",
           "love": "",
-          "trialdesc": "Descarga gratuitamente CONTPAQi Contabilidad por un período de 30 días y conoce los beneficios que dan a tu empresa.",
+          "trialdesc": "",
           "BannerImage": "../../assets/image/evalua035/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/QViT1CJQ8vk",
-          "subtitulo": "CONTPAQi® Contabilidad, el sistema preferido de los contadores.",
+          "Youtube": "https://www.youtube.com/embed/ALCAs_t-th0",
+          "subtitulo": "",
           "buildWith": [
             {
               "content": ""
@@ -1211,9 +1211,9 @@
           ],
           "price": "$1,790.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
-          "buttonLabel": "PROBAR 1 MES GRATIS",
+          "buttonLabel": "",
           "legal": "Licencia anual",
-          "url": "https://www.adaware.com.mx/licencias.php",
+          "url": "",
           "listItems": [
             {
               "content": ""
@@ -1234,23 +1234,23 @@
           "screenshots": [
             {
               "icon": "ic_monetization_on",
-              "tab": "Tablero Fiscal",
-              "image": "../../assets/image/contpaqiContabilidad/screenshot1.png"
+              "tab": "",
+              "image": ""
             },
             {
               "icon": "ic_monetization_on",
-              "tab": "Pólizas",
-              "image": "../../assets/image/contpaqiContabilidad/screenshot2.png"
+              "tab": "",
+              "image": ""
             },
             {
               "icon": "ic_monetization_on",
-              "tab": "Nuevo ADD",
-              "image": "../../assets/image/contpaqiContabilidad/screenshot3.png"
+              "tab": "",
+              "image": ""
             },
             {
               "icon": "ic_monetization_on",
-              "tab": "REP > Pólizas de pago",
-              "image": "../../assets/image/contpaqiContabilidad/screenshot4.png"
+              "tab": "",
+              "image": ""
             }
           ]
         }

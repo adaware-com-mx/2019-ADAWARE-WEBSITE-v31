@@ -27,6 +27,7 @@ const colors = {
   facturaelectronica: '#009e9c',
   pdv: '#009e9c',
   produccion: '#009e9c',
+  evalua035: '#7a539a',
 };
 
 export default colors;
