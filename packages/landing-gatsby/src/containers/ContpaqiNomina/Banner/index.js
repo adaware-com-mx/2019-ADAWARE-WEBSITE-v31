@@ -85,11 +85,7 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content={PORTFOLIO_SHOWCASE[1].portfolioItem[0].featuredIn} />
-                <Text
-                  {...discountText}
-                  content={PORTFOLIO_SHOWCASE[1].portfolioItem[0].view}
-                />
+                <Text {...discountAmount} content="Soluciones para procesos contables" />
               </DiscountLabel>
             </DiscountWrapper>
             <Heading

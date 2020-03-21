@@ -122,9 +122,9 @@ const BannerSection = ({
                 {featuredIn ? (
                   <Text {...discountAmount} content={featuredIn} />
                   ) : (
-                    <Text {...discountAmount} content='Versión' />
+                    <Text {...discountAmount} content='Soluciones para procesos comerciales' />
                 )}
-                
+
                 <Text
                   {...discountText}
                   content={view}
