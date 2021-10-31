@@ -19,7 +19,6 @@ import ServiceSection from '../containers/SaasModern/Service';
 import InfoSectionContpaq from '../containers/SaasModern/Contpaq1';
 import InfoSectionLeft from '../containers/SaasModern/Info-left';
 import FaqSection from '../containers/SaasModern/Faq';
-import TrialSection from '../containers/SaasModern/Trial';
 
 import TestimonialSection from '../containers/SaasModern/Testimonial';
 import Footer from '../containers/SaasModern/Footer';

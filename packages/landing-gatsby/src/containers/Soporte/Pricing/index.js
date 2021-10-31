@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Icon from 'react-icons-kit';
 import Box from 'reusecore/src/elements/Box';
@@ -67,7 +67,7 @@ const PricingSection = ({
     active: true,
   });
 
-  const [loading, setLoading] = useState(false);
+  const [setLoading] = useState(false);
   useEffect(() => {
     setTimeout(function() {
       setLoading(true);

@@ -39,7 +39,7 @@ export const MONTHLY_PRICING_TABLE = [
     freePlan: true,
     name: 'CONTPAQi Contabilidad',
     description: 'Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores',
-    price: '$3,890.00*',
+    price: '$4,190.00*',
     priceLabel: 'Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',

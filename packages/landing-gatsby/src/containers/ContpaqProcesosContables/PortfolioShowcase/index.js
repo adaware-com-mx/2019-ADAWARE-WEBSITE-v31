@@ -5,7 +5,6 @@ import Image from 'gatsby-image';
 import Tabs, { TabPane } from 'rc-tabs';
 import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
-import ScrollableTabBar from 'rc-tabs/lib/ScrollableTabBar';
 import Button from 'reusecore/src/elements/Button'
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';

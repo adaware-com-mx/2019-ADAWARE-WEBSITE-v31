@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from "gatsby";
 import Icon from 'react-icons-kit';
 import Fade from 'react-reveal/Fade';
 import { openModal, closeModal } from '@redq/reuse-modal';
@@ -110,7 +109,7 @@ const BannerSection = ({
             <Fade bottom>
               <VideoModal> 
                 <Image src={BannerImage} alt="ADAWARE, Asesores" />
-                <PlayButton tabIndex="1000" onClick={handleVideoModal}>
+                <PlayButton tabIndex="-1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton>
               </VideoModal>

@@ -153,7 +153,7 @@ const ModalContent = () => (
             <Fade bottom>
               <VideoModal> 
                 <Image fluid={data.bannerImage.childImageSharp.fluid} alt="ADAWARE, Asesores" />
-                <PlayButton tabIndex="1000" onClick={handleVideoModal}>
+                <PlayButton tabIndex="-1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton>
               </VideoModal>

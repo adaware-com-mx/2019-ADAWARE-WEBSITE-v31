@@ -5,7 +5,6 @@ import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Button from 'reusecore/src/elements/Button';
-import Image from 'gatsby-image';
 import Container from 'common/src/components/UI/Container';
 
 
@@ -50,7 +49,6 @@ const TrialSection = ({
     price,
     buttonLabel,
     featuredLink,
-    love,
     trialdesc,
   } = data.saasModernJson.PORTFOLIO_OTROS[0].portfolioItem[0];
 

@@ -167,7 +167,7 @@
       "freePlan": true,
       "name": "CONTPAQi Contabilidad",
       "description": "Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores",
-      "price": "$3,890.00*",
+      "price": "$4,190.00*",
       "priceLabel": "Pesos Mexicanos + IVA",
       "buttonLabel": "PROBAR 1 MES GRATIS",
       "url": "https://www.adaware.com.mx/licencias.php",
@@ -192,7 +192,7 @@
     {
       "name": "CONTPAQi Nóminas",
       "description": "Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos",
-      "price": "$3,290.00*",
+      "price": "$3,890.00*",
       "priceLabel": "Pesos Mexicanos + IVA",
       "buttonLabel": "PROBAR 1 MES GRATIS",
       "url": "https://www.adaware.com.mx/licencias.php",
@@ -217,7 +217,7 @@
     {
       "name": "CONTPAQi Bancos",
       "description": "Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa",
-      "price": "$3,390.00*",
+      "price": "$3,690.00*",
       "priceLabel": "Pesos Mexicanos + IVA",
       "buttonLabel": "PROBAR 1 MES GRATIS",
       "url": "https://www.adaware.com.mx/licencias.php",
@@ -272,7 +272,7 @@
       "freePlan": true,
       "name": "CONTPAQi Comercial Start, Pro, Premium",
       "description": "Integra los procesos de compras, ventas, facturación e inventarios con 3 versiones que mejor se adaptan a las necesidades de tu empresa",
-      "price": "$1,890.00*",
+      "price": "$1,990.00*",
       "priceLabel": "*desde / Pesos Mexicanos + IVA",
       "buttonLabel": "PROBAR 1 MES GRATIS",
       "url": "https://www.adaware.com.mx/licencias.php",
@@ -294,7 +294,7 @@
     {
       "name": "CONTPAQi Factura electrónica",
       "description": "Agiliza tu proceso de facturación y el control de tus cuentas por cobrar para hacer más productivo tu negocio o empresa",
-      "price": "$1,890.00*",
+      "price": "$1,990.00*",
       "priceLabel": "*desde / Pesos Mexicanos + IVA",
       "buttonLabel": "PROBAR 1 MES GRATIS",
       "url": "https://www.adaware.com.mx/licencias.php",
@@ -490,7 +490,7 @@
               "content": "Financiero"
             }
           ],
-          "price": "$3,890.00*",
+          "price": "$4,190.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
@@ -566,7 +566,7 @@
               "content": "Impuestos"
             }
           ],
-          "price": "$3,290.00*",
+          "price": "$3,890.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
@@ -638,7 +638,7 @@
               "content": "Ingresos / Gastos"
             }
           ],
-          "price": "$3,390.00*",
+          "price": "$3,690.00*",
           "priceLabel": "Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
@@ -787,7 +787,7 @@
               "content": "CFDI"
             }
           ],
-          "price": "$1,890.00*",
+          "price": "$1,990.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
@@ -859,7 +859,7 @@
               "content": "Flexible"
             }
           ],
-          "price": "$900",
+          "price": "$1,090.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
@@ -928,7 +928,7 @@
               "content": "Ventas"
             }
           ],
-          "price": "$1,890.00*",
+          "price": "$1,990.00*",
           "priceLabel": "*desde / Pesos Mexicanos + IVA",
           "buttonLabel": "PROBAR 1 MES GRATIS",
           "legal": "Licencia anual",
@@ -1100,75 +1100,6 @@
             },
             {
               "tab": "Productos",
-              "image": "../../assets/image/contpaqi/screenshot4.png"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "CRM",
-      "portfolioItem": [
-        {
-          "title": "CONTPAQi® CRM",
-          "name": "CONTPAQi CRM",
-          "description": "Organiza, controla y gestiona la relación con tus clientes, facilitando la comunicación y seguimiento oportuno.",
-          "description2": "Organiza, controla y gestiona la relación con tus clientes, facilitando la comunicación y seguimiento oportuno.",
-          "image": "../../assets/image/ContpaqProcesosContables/portfolio-10.jpg",
-          "link": "/contpaqi-crm",
-          "featuredIn": "",
-          "featuredLink": "https://www.adaware.com.mx/licencias.php",
-          "view": "",
-          "love": "",
-          "trialdesc": "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
-          "BannerImage": "../../assets/image/contpaqiCRM/banner-image.png",
-          "Youtube": "https://www.youtube.com/embed/sE3vUX1qcEw",
-          "subtitulo": "CONTPAQi® CRM da a tu Fuerza de Ventas la herramienta para vender más",
-          "buildWith": [
-            {
-              "content": "Ventas"
-            },
-            {
-              "content": "Reportes"
-            },
-            {
-              "content": "Control"
-            }
-          ],
-          "price": "$3,708",
-          "priceLabel": "*desde / Pesos Mexicanos + IVA",
-          "buttonLabel": "PROBAR 1 MES GRATIS",
-          "legal": "Licencia anual",
-          "url": "https://www.adaware.com.mx/licencias.php",
-          "listItems": [
-            {
-              "content": "Aplicación segura en la nube que se adapta a tus procesos comerciales"
-            },
-            {
-              "content": "Control, organización e incremento de tus ventas"
-            },
-            {
-              "content": "Seguimiento de tus llamadas, correos electrónicos, visitas y cotizaciones"
-            },
-            {
-              "content": "Velocidad de respuesta única con un seguimiento de tus asesores detallado"
-            }
-          ],
-          "screenshots": [
-            {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot1.png"
-            },
-            {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot2.png"
-            },
-            {
-              "tab": "",
-              "image": "../../assets/image/contpaqi/screenshot3.png"
-            },
-            {
-              "tab": "",
               "image": "../../assets/image/contpaqi/screenshot4.png"
             }
           ]

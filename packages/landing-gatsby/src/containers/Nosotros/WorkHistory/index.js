@@ -57,7 +57,7 @@ const WorkHistory = ({ row, col, cardStyle, title, description, btnStyle }) => {
               <Card className="card" {...cardStyle}>
                 <Text content="Y mucho más" />
                 <Link to="/productos">
-                  <a>Soluciones Contables y Administrativas</a>
+                  <p>Soluciones Contables y Administrativas</p>
                 </Link>
               </Card>
             </CounterUpArea>

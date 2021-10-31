@@ -14,8 +14,6 @@ import BlogSection from '../containers/Productos/BlogSection';
 import Navbar from '../containers/SaasModern/Navbar';
 import BannerSection from '../containers/Productos/Banner';
 
-import PartnerSection from '../containers/Nosotros/Partner';
-import TestimonialSection from '../containers/SaasModern/Testimonial';
 
 import Footer from '../containers/SaasModern/Footer';
 import SEO from '../components/seo';

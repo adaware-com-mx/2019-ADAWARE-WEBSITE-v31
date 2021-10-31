@@ -14,13 +14,6 @@ import Paquete3 from '../../assets/image/saasModern/paquete-3.svg';
 import Paquete4 from '../../assets/image/saasModern/paquete-4.svg';
 import Paquete5 from '../../assets/image/saasModern/paquete-5.svg';
 
-import FeatureIcon1 from '../../assets/image/saasModern/icon-1.png';
-import FeatureIcon2 from '../../assets/image/saasModern/icon-2.png';
-import FeatureIcon3 from '../../assets/image/saasModern/icon-3.png';
-import FeatureIcon4 from '../../assets/image/saasModern/icon-4.png';
-import FeatureIcon5 from '../../assets/image/saasModern/icon-5.png';
-import FeatureIcon6 from '../../assets/image/saasModern/icon-6.png';
-
 import { ic_monetization_on } from 'react-icons-kit/md/ic_monetization_on';
 import { ic_settings } from 'react-icons-kit/md/ic_settings';
 import { pieChart } from 'react-icons-kit/icomoon/pieChart';
@@ -87,7 +80,6 @@ import infoContpaqImage2 from '../../assets/image/saasModern/infocontpaq2-image.
 
 import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
-import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 import { socialInstagram } from 'react-icons-kit/ionicons/socialInstagram';
 import { socialYoutube } from 'react-icons-kit/ionicons/socialYoutube';
 
@@ -100,7 +92,6 @@ import PortfolioImage6 from '../../assets/image/ContpaqProcesosContables/portfol
 import PortfolioImage7 from '../../assets/image/ContpaqProcesosContables/portfolio-7.jpg';
 import PortfolioImage8 from '../../assets/image/ContpaqProcesosContables/portfolio-8.jpg';
 import PortfolioImage9 from '../../assets/image/ContpaqProcesosContables/portfolio-9.jpg';
-import PortfolioImage10 from '../../assets/image/ContpaqProcesosContables/portfolio-10.jpg';
 
 import BannerImage1 from '../../assets/image/contpaqiContabilidad/banner-image.png';
 import BannerImage2 from '../../assets/image/contpaqiNominas/banner-image.png';
@@ -111,7 +102,6 @@ import BannerImage6 from '../../assets/image/contpaqiCFDIenLinea/banner-image.pn
 import BannerImage7 from '../../assets/image/contpaqiComercial/banner-image.png';
 import BannerImage8 from '../../assets/image/contpaqiProduccion/banner-image.png';
 import BannerImage9 from '../../assets/image/contpaqiPDV/banner-image.png';
-import BannerImage10 from '../../assets/image/contpaqiCRM/banner-image.png';
 
 import ProdImage1 from '../../assets/image/productos/prodimage1.jpg';
 import ProdImage2 from '../../assets/image/productos/prodimage2.jpg';
@@ -298,7 +288,7 @@ export const MONTHLY_PRICING_TABLE = [
     freePlan: true,
     name: 'CONTPAQi Contabilidad',
     description: 'Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores',
-    price: '$3,890.00*',
+    price: '$4,190.00*',
     priceLabel: 'Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',
@@ -323,7 +313,7 @@ export const MONTHLY_PRICING_TABLE = [
   {
     name: 'CONTPAQi Nóminas',
     description: 'Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos',
-    price: '$3,290.00*',
+    price: '$3,890.00*',
     priceLabel: 'Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',
@@ -348,7 +338,7 @@ export const MONTHLY_PRICING_TABLE = [
   {
     name: 'CONTPAQi Bancos',
     description: 'Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa',
-    price: '$3,390.00*',
+    price: '$3,690.00*',
     priceLabel: 'Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',
@@ -403,7 +393,7 @@ export const YEARLY_PRICING_TABLE = [
     freePlan: true,
     name: 'CONTPAQi Comercial Start, Pro, Premium',
     description: 'Integra los procesos de compras, ventas, facturación e inventarios con 3 versiones que mejor se adaptan a las necesidades de tu empresa',
-    price: '$1,890.00*',
+    price: '$1,990.00*',
     priceLabel: '*desde / Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',
@@ -425,7 +415,7 @@ export const YEARLY_PRICING_TABLE = [
   {
     name: 'CONTPAQi Factura electrónica',
     description: 'Agiliza tu proceso de facturación y el control de tus cuentas por cobrar para hacer más productivo tu negocio o empresa',
-    price: '$1,890.00*',
+    price: '$1,990.00*',
     priceLabel: '*desde / Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',
@@ -1182,38 +1172,6 @@ export const PORTFOLIO_COMERCIAL = [
       },
     ],
   },
-  {
-    title: 'CRM',
-    portfolioItem: [
-      {
-        title: 'CONTPAQi® CRM',
-        description:
-          "Organiza, controla y gestiona la relación con tus clientes, facilitando la comunicación y seguimiento oportuno.",
-        image: PortfolioImage10,
-        link: '/contpaqi-crm',
-        featuredIn: '',
-        featuredLink: 'http://adaware.com.mx/ingresar.php',
-        view: '2019',
-        love: '',
-        trialdesc: "Descarga gratuitamente uno o más sistemas CONTPAQi por un período de 30 días y conoce los beneficios que dan a tu empresa.",
-        BannerImage: BannerImage10,
-        Youtube: 'https://www.youtube.com/embed/sE3vUX1qcEw',
-        subtitulo: 'CONTPAQi® CRM da a tu Fuerza de Ventas la herramienta para vender más',
-        buildWith: [
-          {
-            content: 'Ventas',
-          },
-          {
-            content: 'Reportes',
-          },
-          {
-            content: 'Control',
-          },
-        ],
-      },
-    ],
-  },
-
 ];
 
 export const PORTFOLIO_OTROS = [
@@ -1285,7 +1243,7 @@ export const SOPORTE_TABLE = [
     freePlan: true,
     name: 'CONTPAQi Contabilidad',
     description: 'Facilita la captura, registro y contabilización de tu información fiscal y financiera, a través del sistema favorito de los Contadores',
-    price: '$3,890.00*',
+    price: '$4,190.00*',
     priceLabel: 'Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',
@@ -1310,7 +1268,7 @@ export const SOPORTE_TABLE = [
   {
     name: 'CONTPAQi Nóminas',
     description: 'Cumple en tiempo y forma con todas las obligaciones de ley en materia de sueldos y salarios como CFDI 3.3, IMSS, Infonavit e impuestos',
-    price: '$3,290.00*',
+    price: '$3,890.00*',
     priceLabel: 'Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',
@@ -1335,7 +1293,7 @@ export const SOPORTE_TABLE = [
   {
     name: 'CONTPAQi Bancos',
     description: 'Cuida y haz crecer tu flujo de efectivo, a través de este sistema que te ayuda a tener visión del dinero que ingresa y egresa de tu empresa',
-    price: '$3,390.00*',
+    price: '$3,690.00*',
     priceLabel: 'Pesos Mexicanos + IVA',
     buttonLabel: 'PROBAR 1 MES GRATIS',
     url: '#',

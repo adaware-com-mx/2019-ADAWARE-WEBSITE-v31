@@ -9,7 +9,6 @@ import Heading from 'reusecore/src/elements/Heading';
 import Container from 'common/src/components/UI/Container';
 import BannerWrapper from './banner.style';
 
-import { SOCIAL_PROFILES } from 'common/src/data/SaasModern/index';
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
 
 

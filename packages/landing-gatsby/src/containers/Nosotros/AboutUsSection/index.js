@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
@@ -11,7 +10,6 @@ import Button from 'reusecore/src/elements/Button';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import AboutUsSectionWrapper from './aboutUsSection.style';
 
-import data from 'common/src/data/SaasModern';
 import { ABOUTUS } from 'common/src/data/SaasModern';
 
 import GroupImage1 from 'common/src/assets/image/saasModern/group/group-image1.jpg';

@@ -61,60 +61,22 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        fonts: [
-          {
-            family: `Roboto`,
-            variants: [
-              `100`,
-              `100i`,
-              `300`,
-              `300i`,
-              `400`,
-              `400i`,
-              `500`,
-              `500i`,
-              `700`,
-              `700i`,
-              `900`,
-              `900i`,
-            ],
-          },
-          {
-            family: `Gothic A1`,
-            variants: [
-              `100`,
-              `100i`,
-              `300`,
-              `300i`,
-              `400`,
-              `400i`,
-              `500`,
-              `500i`,
-              `700`,
-              `700i`,
-              `900`,
-              `900i`,
-            ],
-          },
-          {
-            family: `Poppins`,
-            variants: [`300`, `400`, `500`, `600`, `700`],
-          },
-          {
-            family: `Lato`,
-            variants: [`300`, `400`, `700`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`300`, `400`, `600`, `700`, `800`],
-          },
-          {
-            family: `Nanum Gothic`,
-            variants: [`400`, `500`, `600`, `700`, `800`],
-          }
-        ],
+        google: {
+          families: [
+            'Poppins:300,400,500,600,700',
+            'Nanum Gothic:400,500,600,700,800',
+            'DM Sans:100,300,400,400i,500,500i,600,700,700i',
+            'B612:400,400i,700,700i',
+            'Heebo:300,400,500,600,700,800',
+            'Raleway:500,600',
+            'Open Sans:300,400,600,700,800',
+            'Lato:300,400,700',
+            'Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i',
+            'Gothic A1:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i',
+          ],
+        },
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
