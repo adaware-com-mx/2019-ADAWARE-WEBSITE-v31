@@ -55,10 +55,7 @@ import Screenshot91 from '../../assets/image/contpaqiPDV/screenshot1.png';
 import Screenshot92 from '../../assets/image/contpaqiPDV/screenshot2.png';
 import Screenshot93 from '../../assets/image/contpaqiPDV/screenshot3.png';
 import Screenshot94 from '../../assets/image/contpaqiPDV/screenshot4.png';
-import Screenshot101 from '../../assets/image/contpaqiCRM/screenshot1.png';
-import Screenshot102 from '../../assets/image/contpaqiCRM/screenshot2.png';
-import Screenshot103 from '../../assets/image/contpaqiCRM/screenshot3.png';
-import Screenshot104 from '../../assets/image/contpaqiCRM/screenshot4.png';
+
 import Screenshot105 from '../../assets/image/acronis/screenshot1.png';
 import Screenshot106 from '../../assets/image/acronis/screenshot2.png';
 import Screenshot107 from '../../assets/image/acronis/screenshot3.png';
@@ -766,28 +763,6 @@ export const SCREENSHOTS9 = [
 ];
 
 
-export const SCREENSHOTS10 = [
-  {
-    icon: ic_settings,
-    title: 'Conversión',
-    image: Screenshot101,
-  },
-  {
-    icon: ic_settings,
-    title: 'Plantillas',
-    image: Screenshot102,
-  },
-  {
-    icon: ic_monetization_on,
-    title: 'Reportes',
-    image: Screenshot103,
-  },
-  {
-    icon: briefcase,
-    title: 'Seguimientos',
-    image: Screenshot104,
-  },
-];
 
 export const SCREENSHOTSACRONIS = [
   {
